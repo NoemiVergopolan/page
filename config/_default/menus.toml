@@ -9,7 +9,7 @@
   weight = 10
   
 [[main]]
-  name = "Data & Models"
+  name = "Data and Models"
   url = "#datasets"
   weight = 20
   
