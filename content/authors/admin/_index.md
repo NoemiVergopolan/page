@@ -2,9 +2,12 @@
 title: Noemi Vergopolan
 role: PhD Candidate in Computational Hydrology
 avatar_filename: img_0763-copy.jpg
-bio: My research interests include distributed robotics
+bio: ""
 interests:
   - Hydrology
+  - Remote Sensing
+  - Machine Learning
+  - High Performance Computing
 social:
   - icon: envelope
     icon_pack: fas
@@ -17,12 +20,12 @@ social:
   - icon: graduation-cap
     icon_pack: fas
     link: https://scholar.google.com.br/citations?user=ETyTAKcAAAAJ&hl=en
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/NoemiVergopolan
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/vergopolan/
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/NoemiVergopolan
 organizations:
   - name: Princeton University
     url: https://www.princeton.edu/
@@ -41,6 +44,4 @@ email: noemi.v.rocha@gmail.com
 superuser: true
 highlight_name: false
 ---
-
-
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+\\{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
