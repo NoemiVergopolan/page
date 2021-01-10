@@ -11,10 +11,14 @@ content:
   filter_button:
     - name: All
       tag: "*"
-    - name: Deep Learning
-      tag: Deep Learning
-    - name: Other
-      tag: Demo
+    - name: Hydrology 
+      tag: Hydrology
+    - name: Land Surface Modeling
+      tag: Land Surface Modeling
+    - name: Remote Sensing
+      tag: Remote Sensing
+    - name: Agriculture
+    - tag: Agriculture
 design:
   columns: "2"
   view: 2
