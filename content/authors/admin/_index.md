@@ -13,7 +13,7 @@ social:
     icon_pack: fas
     link: /#contact
     display:
-      header: false
+      header: true
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/NVergopolan
@@ -44,4 +44,5 @@ email: noemi.v.rocha@gmail.com
 superuser: true
 highlight_name: false
 ---
-\\{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+This is about me
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
