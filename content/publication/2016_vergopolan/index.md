@@ -22,7 +22,7 @@ publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
 publication: In the International Journal of Remote Sensing
-publication_short: In **
+publication_short: In *IJRS*
 
 abstract: Given widespread Amazonian deforestation, numerous studies have focused on how the regional hydrological cycle – in terms of precipitation (P) recycling from evapotranspiration (ET) – is impacted by deforestation. Nevertheless, climate macroscale and mesoscale models have given contradictory results on changes in ET and P with deforestation. To date, these results have not been evaluated with observations, so in this work, we assessed a decade of patterns in ET and P over deforested and forest areas using remote sensing (MODIS and TRMM, 2000–2012). We found a relative increase in ET and P in deforested areas, though there was a positive ET and P correlation over southern/deforested, and negative in northern/forested Amazonia. Although the absolute ET and P values are lower in deforested areas in comparison to border areas, we observed a positive change in ET and P in the last 10 years at the deforested areas. The increase in ET was larger within the deforested areas; meanwhile, P increased more from inside forest areas to the borders, which agrees with the ET and P correlation patterns. Our results help to inform the debate between the macroscale and mesoscale models, as deforestation impacts small-scale circulation patterns, turbulence, and moisture fluxes and convergence, and expand our understanding of the processes involved.
 
