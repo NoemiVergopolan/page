@@ -1,5 +1,5 @@
 ---
-title: Noemi Vergopolan (test)
+title: Noemi Vergopolan
 role: PhD Candidate in Computational Hydrology
 avatar_filename: img_0763-copy.jpg
 bio: ""

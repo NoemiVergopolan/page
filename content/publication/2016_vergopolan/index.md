@@ -1,12 +1,18 @@
 ---
+
 title: "The impact of deforestation on the hydrological cycle in Amazonia as observed from remote sensing"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- Noemi Vegopolan
+- admin
 - Joshua B. Fisher
+
+# Author notes (optional)
+author_notes:
+#- "Equal contribution"
+#- "Equal contribution"
 
 date: "2016-10-10T00:00:00Z"
 doi: "10.1080/01431161.2016.1232874"
@@ -24,10 +30,10 @@ publication_types: ["2"]
 publication: In the International Journal of Remote Sensing
 publication_short: In *IJRS*
 
-abstract: Given widespread Amazonian deforestation, numerous studies have focused on how the regional hydrological cycle – in terms of precipitation (P) recycling from evapotranspiration (ET) – is impacted by deforestation. Nevertheless, climate macroscale and mesoscale models have given contradictory results on changes in ET and P with deforestation. To date, these results have not been evaluated with observations, so in this work, we assessed a decade of patterns in ET and P over deforested and forest areas using remote sensing (MODIS and TRMM, 2000–2012). We found a relative increase in ET and P in deforested areas, though there was a positive ET and P correlation over southern/deforested, and negative in northern/forested Amazonia. Although the absolute ET and P values are lower in deforested areas in comparison to border areas, we observed a positive change in ET and P in the last 10 years at the deforested areas. The increase in ET was larger within the deforested areas; meanwhile, P increased more from inside forest areas to the borders, which agrees with the ET and P correlation patterns. Our results help to inform the debate between the macroscale and mesoscale models, as deforestation impacts small-scale circulation patterns, turbulence, and moisture fluxes and convergence, and expand our understanding of the processes involved.
+abstract: Given widespread Amazonian deforestation, numerous studies have focused on how the regional hydrological cycle - in terms of precipitation (P) recycling from evapotranspiration (ET) - is impacted by deforestation. Nevertheless, climate macroscale and mesoscale models have given contradictory results on changes in ET and P with deforestation. To date, these results have not been evaluated with observations, so in this work, we assessed a decade of patterns in ET and P over deforested and forest areas using remote sensing (MODIS and TRMM, 2000–2012). We found a relative increase in ET and P in deforested areas, though there was a positive ET and P correlation over southern/deforested, and negative in northern/forested Amazonia. Although the absolute ET and P values are lower in deforested areas in comparison to border areas, we observed a positive change in ET and P in the last 10 years at the deforested areas. The increase in ET was larger within the deforested areas; meanwhile, P increased more from inside forest areas to the borders, which agrees with the ET and P correlation patterns. Our results help to inform the debate between the macroscale and mesoscale models, as deforestation impacts small-scale circulation patterns, turbulence, and moisture fluxes and convergence, and expand our understanding of the processes involved.
 
 # Summary. An optional shortened abstract.
-#summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: 
 
 tags: [remote sensing, deforestation, evapotranspitation, precipitation]
 
@@ -60,7 +66,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-#projects:
+projects:
 #- example
 
 # Slides (optional).
@@ -68,8 +74,9 @@ image:
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-#slides: example
-#---
+slides: #example
+
+---
 
 #{{% callout note %}}
 #Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
