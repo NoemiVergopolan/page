@@ -9,38 +9,38 @@
   weight = 10
   
 [[main]]
-  name = "Data and Models"
-  url = "#datasets"
-  weight = 20
-  
-[[main]]
   name = "Projects"
   url = "#projects"
+  weight = 20
+
+[[main]]
+  name = "Data and Models"
+  url = "#datasets"
   weight = 30
-  
+ 
 [[main]]
   name = "Publications"
   url = "#publications"
   weight = 40
-  
-[[main]]
-  name = "Posts"
-  url = "#posts"
-  weight = 50
+ 
+#[[main]]
+#  name = "Posts"
+#  url = "#posts"
+#  weight = 50
 
-[[main]]
-  name = "Talks"
-  url = "#talks"
-  weight = 60
+#[[main]]
+#  name = "Talks"
+#  url = "#talks"
+#  weight = 60
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/media/resume.pdf` and uncomment the lines below.
 [[main]]
   name = "CV"
   url = "media/resume.pdf"
-  weight = 70
+  weight = 50
 
 [[main]]
   name = "Contact"
   url = "#contact"
-  weight = 80
+  weight = 60
