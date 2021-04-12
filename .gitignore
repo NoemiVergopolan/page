@@ -6,3 +6,4 @@
 public/
 jsconfig.json
 hugo
+node_modules/
