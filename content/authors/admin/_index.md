@@ -1,7 +1,7 @@
 ---
 title: Noemi Vergopolan
 role: PhD Candidate in Computational Hydrology
-avatar_filename: img_0763-copy.jpg
+avatar_filename: admin.jpg
 bio: ""
 interests:
   - Hydrology
@@ -17,6 +17,8 @@ social:
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/NVergopolan
+    display:
+      header: true
   - icon: graduation-cap
     icon_pack: fas
     link: https://scholar.google.com.br/citations?user=ETyTAKcAAAAJ&hl=en
@@ -42,7 +44,7 @@ education:
       year: 2014
 email: noemi.v.rocha@gmail.com
 superuser: true
-highlight_name: false
+highlight_name: true
 ---
 This is about me
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
