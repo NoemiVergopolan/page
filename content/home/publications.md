@@ -7,10 +7,12 @@ widget: pages
 headless: true
 
 # Order that this section appears on the page.
-weight: 90
+weight: 80
 
 title: Recent Publications
-subtitle: ''
+subtitle: 
+
+# Complete list [here](./publication/) and on [Google Scholar](https://scholar.google.com.br/citations?user=ETyTAKcAAAAJ&hl).
 
 content:
   # Page type to display. E.g. post, talk, publication...
@@ -37,7 +39,6 @@ design:
   view: 4
 ---
 
-{{% callout note %}}
-Quickly discover relevant content by [filtering publications](./publication/).
-{{% /callout %}}
+
+Complete list [here](./publication/) and on [Google Scholar](https://scholar.google.com.br/citations?user=ETyTAKcAAAAJ&hl).
 

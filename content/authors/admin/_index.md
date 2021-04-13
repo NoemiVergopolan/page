@@ -1,7 +1,7 @@
 ---
 title: Noemi Vergopolan
 role: PhD Candidate in Computational Hydrology
-avatar_filename: admin.jpg
+avatar_filename: avatar.jpg
 bio: ""
 interests:
   - Hydrology
@@ -19,8 +19,8 @@ social:
     link: https://twitter.com/NVergopolan
     display:
       header: true
-  - icon: graduation-cap
-    icon_pack: fas
+  - icon: google-scholar
+    icon_pack: ai
     link: https://scholar.google.com.br/citations?user=ETyTAKcAAAAJ&hl=en
   - icon: linkedin
     icon_pack: fab
@@ -33,11 +33,19 @@ organizations:
     url: https://www.princeton.edu/
 education:
   courses:
-    - course: PhD in Civil and Environmental Engineering
-      institution: Princeton University, US
-      year: ""
+    - course: PhD in Civil & Environmental Engineering
+      institution: Princeton University, United States
+      year: 2021 
+    - certificate: Statistics & Machine Learning Graduate Certificate
+      institution: Princeton University, United States
+      certificate_url: 
+      year: 2021
+    - certificate: Scientific Computing & Information Technology Graduate Certificate
+      institution: Princeton University, United States
+      certificate_url: 
+      year: 2019
     - course: MA in Civil and Environmental Engineering
-      institution: Princeton University, US
+      institution: Princeton University, United States
       year: 2017
     - course: BS Environmental Engineering
       institution: Federal University of Parana, Brazil
