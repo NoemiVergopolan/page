@@ -1,13 +1,18 @@
 ---
 title: Noemi Vergopolan
-role: PhD Candidate in Computational Hydrology
+role: Computational Hydrology
 avatar_filename: avatar.jpg
 bio: ""
 interests:
   - Hydrology
-  - Remote Sensing
+  - Agriculture
+  - Water Scarcity
+  - Hydrological Extremes
+  - Satellite Remote Sensing
   - Machine Learning
   - High Performance Computing
+  - Big Data
+
 social:
   - icon: envelope
     icon_pack: fas
@@ -34,25 +39,29 @@ organizations:
 education:
   courses:
     - course: PhD in Civil & Environmental Engineering
-      institution: Princeton University, United States
-      year: 2021 
-    - certificate: Statistics & Machine Learning Graduate Certificate
-      institution: Princeton University, United States
-      certificate_url: 
-      year: 2021
-    - certificate: Scientific Computing & Information Technology Graduate Certificate
-      institution: Princeton University, United States
-      certificate_url: 
-      year: 2019
-    - course: MA in Civil and Environmental Engineering
-      institution: Princeton University, United States
-      year: 2017
+      institution: Princeton University, 2021*
+      institution_url: https://cee.princeton.edu/
+      year: 
+    - certificate: Statistics & Machine Learning Certificate
+      institution: Princeton University, 2021
+      certificate_url: https://csml.princeton.edu/graduate/certificate-program
+      year: 
+    - certificate: Scientific Computing & Information Technology Certificate
+      institution: Princeton University, 2019
+      certificate_url: https://researchcomputing.princeton.edu/learn/cse-graduate-certificate
+      year: 
+    - course: MA in Civil & Environmental Engineering
+      institution: Princeton University, 2017
+      year: 
     - course: BS Environmental Engineering
-      institution: Federal University of Parana, Brazil
-      year: 2014
+      institution: Federal University of Paraná, 2014
+      year: 
 email: noemi.v.rocha@gmail.com
 superuser: true
 highlight_name: true
 ---
-This is about me
+
+I am a PhD candidate in the Departament of Civil and Environmental Engineering at Princeton University. My research aims to aid water resource decision-making by improving monitoring and forecasting of hydrological hazards and their impacts at the local scales. To this aim, my research leverages satellite remote sensing, land surface modeling, machine learning, data fusion, and high-performance computing for developing scalable approaches that enable hydrological predictions at a high spatial resolution and over continental extents. Learn more about my research interests in publications.
+
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+

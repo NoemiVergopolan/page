@@ -36,7 +36,7 @@ abstract: Given widespread Amazonian deforestation, numerous studies have focuse
 # Summary. An optional shortened abstract.
 summary: 
 
-tags: [remote sensing, deforestation, evapotranspitation, precipitation]
+tags: [Remote Sensing, Deforestation, Evapotranspitation, Precipitation]
 
 # Display this page in the Featured widget?
 featured: false
