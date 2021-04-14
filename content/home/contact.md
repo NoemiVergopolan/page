@@ -27,5 +27,10 @@ content:
   
 design:
   columns: '2'
+
+  spacing:
+    # Customize the section spacing. Order is top, right, bottom, left.
+    padding: ["100px", "0", "100px", "0"]
+
 ---
 

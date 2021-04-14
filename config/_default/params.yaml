@@ -5,13 +5,12 @@
 
 # Appearance
 
-theme: minimal
+theme: my_theme
 day_night: true # enable uses to switch between light and dark
-font: #'custom'
-font_size: M
+font: #custom
+font_size: L
 
 # SEO
-
 site_type: Person
 local_business_type: ''
 org_name: ''
@@ -20,7 +19,7 @@ twitter: ''
 
 # Contact (edit or remove options as required)
 
-#email: noemi@princeton.edu
+email: noemi@princeton.edu
 #phone: 
 #address:
 #  street: 59 Olden St. EQUAD
@@ -37,11 +36,11 @@ twitter: ''
 #  - 'Monday 10:00 to 13:00'
 #  - 'Wednesday 09:00 to 10:00'
 #appointment_url: #'https://calendly.com'
-#contact_links:
-#  - icon: twitter
-#    icon_pack: fab
-#    name: '@NVergopolan'
-#    link: 'https://twitter.com/NVergopolan'
+contact_links:
+  - icon: twitter
+    icon_pack: fab
+    name: '@NVergopolan'
+    link: 'https://twitter.com/NVergopolan'
 #  - icon: skype
 #    icon_pack: fab
 #    name: Skype Me
