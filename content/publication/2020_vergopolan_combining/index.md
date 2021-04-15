@@ -51,7 +51,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: https://www.researchgate.net/publication/339920859_Combining_hyper-resolution_land_surface_modeling_with_SMAP_brightness_temperatures_to_obtain_30-m_soil_moisture_estimates
+url_pdf: #https://www.researchgate.net/publication/339920859_Combining_hyper-resolution_land_surface_modeling_with_SMAP_brightness_temperatures_to_obtain_30-m_soil_moisture_estimates
 url_code: ''
 url_dataset: ''
 url_poster: ''

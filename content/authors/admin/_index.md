@@ -58,6 +58,6 @@ email: noemi.v.rocha@gmail.com
 superuser: true
 highlight_name: true
 ---
-I am pursuing a PhD in Civil and Environmental Engineering at Princeton University with focus on computational hydrology. My research aims to aid water resource decision-making by improving capabilities for monitoring and forecasting hydrological hazards and their impacts. To this aim, my research leverages satellite remote sensing, land surface modeling, machine learning, data fusion, and high-performance computing for hydrological predictions at a high spatial resolution. Learn more about my research interests in publications.
+I am pursuing a PhD in Civil and Environmental Engineering at Princeton University with focus on computational hydrology. My research aims to aid water resource decision-making by improving capabilities for monitoring and forecasting hydrological hazards and their impacts. To this aim, my research leverages satellite remote sensing, land surface modeling, machine learning, data fusion, and high-performance computing for hydrological predictions at high spatial resolution Learn more about my research interests in publications.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.

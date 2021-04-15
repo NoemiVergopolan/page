@@ -47,7 +47,7 @@ summary: This study represents the most comprehensive global-scale precipitation
 tags: [Precipitation, Remote Sensing, Reanalysis]
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Custom links (uncomment lines below)
 # links:
