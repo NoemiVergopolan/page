@@ -18,7 +18,7 @@ content:
   # Page type to display. E.g. post, talk, publication...
   page_type: publication
   # Choose how much pages you would like to display (0 = all pages)
-  count: 4
+  count: 3
   # Choose how many pages you would like to offset by
   offset: 0
   # Page order: descending (desc) or ascending (asc) date.
@@ -36,12 +36,12 @@ design:
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view: 4
+  view: 1
 
 
   spacing:
     # Customize the section spacing. Order is top, right, bottom, left.
-    padding: ["60px", "0", "100px", "0"]
+    padding: ["60px", "0", "80px", "0"]
 
 ---
 

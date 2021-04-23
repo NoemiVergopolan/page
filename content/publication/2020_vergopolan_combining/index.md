@@ -7,12 +7,12 @@ title: "Combining hyper-resolution land surface modeling with SMAP brightness te
 # and it will be replaced with their full name and linked to their profile.
 authors:
 - admin
-- Nathaniel W.Chaney
-- Hylke E.Beck
+- Nathaniel W. Chaney
+- Hylke E. Beck
 - Ming Pan
 - Justin Sheffield
 - Steven Chan
-- Eric F.Wood
+- Eric F. Wood
 
 # Author notes (optional)
 author_notes:
@@ -72,7 +72,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects: 
+projects: [] 
 #- example
 
 # Slides (optional).

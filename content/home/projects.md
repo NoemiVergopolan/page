@@ -3,7 +3,7 @@ widget: portfolio
 widget_id: projects
 headless: true
 weight: 40
-title: Projects
+title: Research
 subtitle: ""
 content:
   page_type: project
@@ -21,13 +21,20 @@ content:
   #  - tag: Agriculture
 design:
   columns: "2"
-  view: 2
-  flip_alt_rows: false
+
+  # 1 = List (previously Simple)
+  # 2 = Compact (previously Stream)
+  # 3 = Card (previously Detailed)
+  # 4 = Citation (previously APA and MLA), only available for publications
+  # Optionally, edit the value of citation_style in params.yaml to APA or MLA
+  # 5 = Showcase (large images), only available for projects
+  view: 5
+  flip_alt_rows: true
 
   #background:
   #  # backgroudn color
   #  color: black
   spacing:
     # Customize the section spacing. Order is top, right, bottom, left.
-    padding: ["100px", "0", "100px", "0"]
+    padding: ["80px", "0", "80px", "0"]
 ---

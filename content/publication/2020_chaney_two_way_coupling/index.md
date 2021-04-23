@@ -33,13 +33,33 @@ publication_types: ["3"]
 publication: In *Geoscientific Model Development*
 publication_short:  
 
-abstract: "Over the past decade, there has been appreciable progress towards modeling the water, energy, and carbon cycles at field-scales (10–100 m) over continental to global extents. One such approach, named HydroBlocks, accomplishes this task while maintaining computational efficiency via sub-grid tiles, or Hydrologic Response Units (HRUs), learned via a hierarchical clustering approach from available global high-resolution environmental data. However, until now, there has yet to be a macroscale river routing approach that is able to leverage HydroBlocks' approach to sub-grid heterogeneity, thus limiting the added value of field-scale land surface modeling in Earth System Models (e.g., riparian zone dynamics, irrigation from surface water, and interactive floodplains). This paper introduces a novel dynamic river routing scheme in HydroBlocks that is intertwined with the modeled field-scale land surface heterogeneity. The primary features of the routing scheme include: 1) the fine-scale river network of each macroscale grid cell's is derived from very high resolution ($<$ 100 m) DEMs; 2) the inlet/outlet reaches of each macroscale grid cell are linked to assemble the continental river networks; 3) the river dynamics are solved at a reach-level via the Kinematic wave assumption of the Saint-Venant equations; 4) a two-way coupling is established between each sub-grid tile and the river network. To implement and test the novel approach, a 1.0-degree bounding box surrounding the Atmospheric Radiation and Measurement (ARM) Southern Great Plains (SGP) site in Northern Oklahoma (United States) is used. The results show: 1) the implementation of the two-way coupling between the land surface and the river network leads to appreciable differences in the simulated spatial heterogeneity of the surface energy balance; 2) a limited number of tiles (~300 per 0.25-degree cell) are required to approximate the fully distributed simulation adequately; 3) the surface energy balance partitioning is sensitive to the river routing model parameters. The resulting routing scheme provides an effective and efficient path forward to enable a two-way coupling between the high-resolution river networks and existing tiling schemes within Earth system models."
+abstract: "Over the past decade, there has been appreciable progress towards modeling the water, energy, and carbon cycles at field-scales (10–100 m) over continental to global extents. One such approach, named HydroBlocks, accomplishes this task while maintaining computational efficiency via sub-grid tiles, or Hydrologic Response Units (HRUs), learned via a hierarchical clustering approach from available global high-resolution environmental data. However, until now, there has yet to be a macroscale river routing approach that is able to leverage HydroBlocks' approach to sub-grid heterogeneity, thus limiting the added value of field-scale land surface modeling in Earth System Models (e.g., riparian zone dynamics, irrigation from surface water, and interactive floodplains). This paper introduces a novel dynamic river routing scheme in HydroBlocks that is intertwined with the modeled field-scale land surface heterogeneity. The primary features of the routing scheme include: 
+
+1) the fine-scale river network of each macroscale grid cell's is derived from very high resolution ($<$ 100 m) DEMs;
+
+2) the inlet/outlet reaches of each macroscale grid cell are linked to assemble the continental river networks; 
+
+3) the river dynamics are solved at a reach-level via the Kinematic wave assumption of the Saint-Venant equations; 
+
+4) a two-way coupling is established between each sub-grid tile and the river network. 
+
+
+To implement and test the novel approach, a 1.0-degree bounding box surrounding the Atmospheric Radiation and Measurement (ARM) Southern Great Plains (SGP) site in Northern Oklahoma (United States) is used. The results show:
+
+1) the implementation of the two-way coupling between the land surface and the river network leads to appreciable differences in the simulated spatial heterogeneity of the surface energy balance; 
+
+2) a limited number of tiles (~300 per 0.25-degree cell) are required to approximate the fully distributed simulation adequately; 
+
+3) the surface energy balance partitioning is sensitive to the river routing model parameters. 
+
+
+The resulting routing scheme provides an effective and efficient path forward to enable a two-way coupling between the high-resolution river networks and existing tiling schemes within Earth system models."
 
 
 # Summary. An optional shortened abstract.
-summary: Drought monitoring and yield prediction often rely on coarse-scale hydroclimate data or (infrequent) vegetation indexes that do not always indicate the conditions farmers face in the field. Consequently, decision-making based on these indices can often be disconnected from the farmer reality. Our study focuses on smallholder farming systems in data-sparse developing countries, and it shows how field-scale soil moisture can leverage and improve crop yield prediction and drought impact assessment. 
+summary: Although there have been significant advances in river routing and sub-grid heterogeneity (i.e., tiling) schemes in Earth system models over the past decade, there has yet to be a concerted effort to couple these two concepts. This paper aims to bridge this gap through the development of a two-way coupling between sub-grid tiles and river networks in a field-scale resolving land surface model. The scheme is implemented and tested over a 1 arc degree domain in Oklahoma, United States.
 
-tags: [ HydroBlocks, Land Surface Modeling, Machine Learning, River Routing]
+tags: [ HydroBlocks, Land Surface Modeling, River Routing]
 
 # Display this page in the Featured widget?
 featured: true
