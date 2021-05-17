@@ -20,12 +20,17 @@ twitter: ''
 # Contact (edit or remove options as required)
 
 email: noemi@princeton.edu
-#phone: 
+#phone:
+contact_links:
+  - icon: twitter
+    icon_pack: fab
+    name: '@NVergopolan'
+    link: 'https://twitter.com/NVergopolan' 
 address:
-  street: '59 Olden St., EQUAD, Civil and Environmental Engineering'
+  street: '' #'59 Olden St., EQUAD, Civil and Environmental Engineering'
   city: Princeton
   region: NJ
-  postcode: '08544'
+  postcode: 'USA'
   country: United States
   country_code: US
 coordinates:

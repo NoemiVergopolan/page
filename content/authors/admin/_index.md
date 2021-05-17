@@ -37,7 +37,7 @@ organizations:
 education:
   courses:
     - course: PhD in Civil & Environmental Engineering
-      institution: Princeton University, 2021*
+      institution: Princeton University, 2021
       institution_url: https://cee.princeton.edu/
       year: 
     - certificate: Statistics & Machine Learning Certificate
@@ -57,7 +57,9 @@ education:
 email: noemi.v.rocha@gmail.com
 superuser: true
 highlight_name: true
----
-I am a PhD Candidate in [Civil and Environmental Engineering](https://cee.princeton.edu/) at Princeton University pursuing a degree in Environmental Engineering and Water Resources with focus on Computational Hydrology. My research aims to aid water resource decision-making by improving monitoring and forecasting of hydrological hazards and their impacts at the local scales. To this aim, I develop scalable tools for high-resolution hydrological predictions by leveraging satellite remote sensing, land surface modeling, machine learning, data fusion, and high-performance computing. Learn more about my research interests in [research](#projects) and [publications](publication).
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+# {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+
+---
+I am a computational hydrology with a PhD in Civil and Environmental Engineering from Princeton University. My research aims to aid water resource decision-making by improving monitoring and forecasting of hydrological hazards and their impacts at the local scales. To this aim, I work developing scalable solutions for high-resolution hydrological predictions by leveraging satellite remote sensing, land surface modeling, machine learning, data fusion, and high-performance computing. Learn more about my research interests in [research](#projects) and [publications](publication).
+
