@@ -26,16 +26,16 @@ contact_links:
     icon_pack: fab
     name: '@NVergopolan'
     link: 'https://twitter.com/NVergopolan' 
-address:
-  street: '' #'59 Olden St., EQUAD, Civil and Environmental Engineering'
-  city: Princeton
-  region: NJ
-  postcode: 'USA'
-  country: United States
-  country_code: US
-coordinates:
-  latitude: '40.3500491636575'
-  longitude: '-74.65117846671156'
+#address:
+#  street: '' #'59 Olden St., EQUAD, Civil and Environmental Engineering'
+#  city: Princeton
+#  region: NJ
+#  postcode: 'USA'
+#  country: United States
+#  country_code: US
+#coordinates:
+#  latitude: '40.3500491636575'
+#  longitude: '-74.65117846671156'
 #directions: 
 #office_hours:
 #  - 'Monday 10:00 to 13:00'
