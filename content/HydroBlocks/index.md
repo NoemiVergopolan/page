@@ -2,7 +2,7 @@
 reading_time: true
 commentable: false
 date: "2020-12-31T00:00:00+01:00"
-draft: false
+draft: true
 editable: false
 image:
   placement: 1
@@ -12,6 +12,7 @@ image:
 header:
   image: "HydroBlocks/header.gif"
   caption: ""
+  focal_point: 'center'
 tags:
 - Land Surface Modeling
 - Hyper-resolution
