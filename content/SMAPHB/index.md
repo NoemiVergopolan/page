@@ -38,12 +38,12 @@ To develop the SMAP-HydroBlocks dataset, we coupled HydroBlocks model with a Tau
 For illustration, SMAP-HB long-term and annual climatology at 30-m resolution is shown in the Soil Moisture Visualization tab.
 
 <div style="text-align: center;">
-{{% staticref "https://stream.princeton.edu/SMAPHB" "newtab" %}}Open Fullscreen{{% /staticref %}}
+{{% staticref "https://smaphbvis3.waterai.earth/" "newtab" %}}Open Fullscreen{{% /staticref %}}
 </div>
 
 
 <div class='visualizer' style="position: relative; padding-bottom: 100%; width: 100%; height: 120%; overflow: hidden;">
-  <iframe scrolling="no" src="http://stream.princeton.edu/SMAPHB/" style="position:absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; margin-top: -102px; " allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' allowvr="yes"></iframe>
+  <iframe scrolling="no" src="https://smaphbvis3.waterai.earth/" style="position:absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; margin-top: -102px; " allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' allowvr="yes"></iframe>
 </div>
 
 
