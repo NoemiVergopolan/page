@@ -43,7 +43,7 @@ For illustration, SMAP-HB long-term and annual climatology at 30-m resolution is
 
 
 <div class='visualizer' style="position: relative; padding-bottom: 100%; width: 100%; height: 120%; overflow: hidden;">
-  <iframe scrolling="no" src="https://www.princeton.edu/" style="position:absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; margin-top: -102px; " allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' allowvr="yes"></iframe>
+  <iframe scrolling="no" src="http://stream.princeton.edu/SMAPHB/" style="position:absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; margin-top: -102px; " allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' allowvr="yes"></iframe>
 </div>
 
 
