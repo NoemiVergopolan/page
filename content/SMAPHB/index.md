@@ -25,6 +25,13 @@ url: "SMAPHB/"
 
 # Shortcodes - to add various content to the webpage
 # https://gohugo.io/content-management/shortcodes
+
+
+# Iframe for interactive visualization
+# <div class='visualizer' style="position: relative; padding-bottom: 100%; width: 100%; height: 120%; overflow: hidden;">
+# <iframe scrolling="no" src="http://stream.princeton.edu/SMAPHB/" style="position:absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; margin-top: -102px; " allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' allowvr="yes"></iframe>
+# </div>
+
 ---
 
 ## Hyper-resolution satellite-based surface soil moisture over the continental United States
@@ -35,21 +42,15 @@ Our approach is built upon HydroBlocks, a hyper-resolution land surface model th
 
 To develop the SMAP-HydroBlocks dataset, we coupled HydroBlocks model with a Tau-Omega Radiative Transfer Model (HydroBlocks-RTM) to simulate the soil surface brightness temperature, and we merged it with the NASA's Soil Moisture Active-Passive (SMAP) L3 Enhanced 9-km brightness temperature product ([SMAP L3E](https://nsidc.org/data/SPL3SMP_E/versions/3)). For merging cluster-based model and grid-based satellite data we developed a cluster-based spatial Bayesian scheme ([Vergopolan et al., 2020](../publication/2020_vergopolan_combining)). We parameterized this merging scheme by regionalizing relationships extracted from satellite, models, and in-situ soil moisture observations using machine learning (Vergopolan et al., in review). With the fused brightness temperature, the inverse HydroBlocks-RTM model was applied to retrieve the SMAP-HydroBlocks (SMAP-HB) soil moisture estimates.
 
-For illustration, SMAP-HB long-term and annual climatology at 30-m resolution is shown in the Soil Moisture Visualization tab.
+For illustration, SMAP-HB long-term and annual climatology at 30-m resolution is shown in the visualization below.
 
-<div style="text-align: center;">
-{{% staticref "https://smaphbvis3.waterai.earth/" "newtab" %}}Open Fullscreen{{% /staticref %}}
-</div>
+<div style="text-align: center;">{{% staticref "http://stream.princeton.edu/SMAPHB/" "newtab" %}}Open Fullscreen{{% /staticref %}}</div>
 
-
-<div class='visualizer' style="position: relative; padding-bottom: 100%; width: 100%; height: 120%; overflow: hidden;">
-  <iframe scrolling="no" src="https://smaphbvis5.waterai.earth/" style="position:absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; margin-top: -102px; " allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' allowvr="yes"></iframe>
-</div>
-
+[![Image name](VisImg2.png)](http://stream.princeton.edu/SMAPHB/)
 
 
 #### Data availability
-Subsets of the SMAP-HB dataset at 30-m 3-hr resolution (2015–2019) are available on request. An aggregated version of the SMAP-HB dataset at 1-km 6-hr resolution (2015–2019) is available for download [here](https://zenodo.org/record/4441212).
+Subsets of the SMAP-HB dataset at 30-m 3-hr resolution (2015–2019) are available on request to Noemi Vergpolan (noemi.v.rocha@gmail.com). An aggregated version of the SMAP-HB dataset at 1-km 6-hr resolution (2015–2019) is available for download [here](https://zenodo.org/record/4441212).
 
 #### Data citation
 Please cite the following paper when using the dataset in any publication:
