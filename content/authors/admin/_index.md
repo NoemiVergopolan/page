@@ -61,5 +61,6 @@ highlight_name: true
 # {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
 
 ---
-I am a computational hydrologist with a PhD in Civil and Environmental Engineering from Princeton University. My research aims to aid water resource decision-making by improving monitoring and forecasting of hydrological hazards and their impacts at the local scales. To this aim, I work developing scalable solutions for high-resolution hydrological predictions by leveraging satellite remote sensing, land surface modeling, machine learning, data fusion, and high-performance computing. Learn more about my research interests in [research](#projects) and [publications](publication).
+My research aims to aid water resource decision-making by improving monitoring and forecasting of hydrological hazards and their impacts at the local scales. To this aim, I work developing scalable solutions for high-resolution hydrological predictions by leveraging satellite remote sensing, land surface modeling, machine learning, data fusion, and high-performance computing.  
+I obtained my PhD degree in Civil and Environmental Engineering from Princeton University in 2021. Currently, I am a Postdoctoral Research Associate at Princeton University working at the [NOAA](https://www.noaa.gov/) [Geophysical Fluid Dynamics Laboratory](https://www.gfdl.noaa.gov/). Learn more about my interests in [research](#projects) and [publications](publication).
 

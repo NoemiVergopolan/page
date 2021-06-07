@@ -2,7 +2,7 @@
 reading_time: true
 commentable: false
 date: "2020-12-31T00:00:00+01:00"
-draft: true
+draft: false
 editable: false
 image:
   placement: 1
@@ -19,7 +19,7 @@ tags:
 - HydroBlocks
 share: true
 title: "HydroBlocks"
-summary: A field-scale resolving land surface model
+summary: A field-scale resolving land surface model over continental scales
 type: "page"
 url: "HydroBlocks/"
 
@@ -27,7 +27,7 @@ url: "HydroBlocks/"
 # https://gohugo.io/content-management/shortcodes
 ---
 
-## Hyper-resolution satellite-based surface soil moisture over the continental United States
+## Hyper-resolution land surface model at continental scales
 
 SMAP-HydroBlocks is a hyper-resolution satellite-based surface soil moisture product at 3-hourly 30-m resolution over the continental United States (2015-2019). This dataset combines microwave satellite remote sensing, hyper-resolution land surface model, radiative transfer modeling, machine learning, and in-situ observations to obtain hydrologically consistent soil moisture estimates of the top 5-cm of the soil.
 

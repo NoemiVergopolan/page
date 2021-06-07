@@ -42,17 +42,34 @@ Our approach is built upon HydroBlocks, a hyper-resolution land surface model th
 
 To develop the SMAP-HydroBlocks dataset, we coupled HydroBlocks model with a Tau-Omega Radiative Transfer Model (HydroBlocks-RTM) to simulate the soil surface brightness temperature, and we merged it with the NASA's Soil Moisture Active-Passive (SMAP) L3 Enhanced 9-km brightness temperature product ([SMAP L3E](https://nsidc.org/data/SPL3SMP_E/versions/3)). For merging cluster-based model and grid-based satellite data we developed a cluster-based spatial Bayesian scheme ([Vergopolan et al., 2020](../publication/2020_vergopolan_combining)). We parameterized this merging scheme by regionalizing relationships extracted from satellite, models, and in-situ soil moisture observations using machine learning (Vergopolan et al., in review). With the fused brightness temperature, the inverse HydroBlocks-RTM model was applied to retrieve the SMAP-HydroBlocks (SMAP-HB) soil moisture estimates.
 
-For illustration, SMAP-HB long-term and annual climatology at 30-m resolution is shown in the visualization below.
+
+
+### Data Visualization
+
+For illustration, SMAP-HB long-term and annual climatology at 30-m resolution are shown in the interactive visualization below. As a note, data is best shown in chrome and firefox browsers; otherwise, spatial resolution may be degraded.
 
 <div style="text-align: center;">{{% staticref "http://stream.princeton.edu/SMAPHB/" "newtab" %}}Open Fullscreen{{% /staticref %}}</div>
 
 [![Image name](VisImg2.png)](http://stream.princeton.edu/SMAPHB/)
 
 
-#### Data availability
-Subsets of the SMAP-HB dataset at 30-m 3-hr resolution (2015–2019) are available on request to Noemi Vergpolan (noemi.v.rocha@gmail.com). An aggregated version of the SMAP-HB dataset at 1-km 6-hr resolution (2015–2019) is available for download [here](https://zenodo.org/record/4441212).
 
-#### Data citation
+### Conference Presentation
+
+I presented this research at the American Geophysical Union 2020 Virtual Fall Meeting. Check out the video presentation below for more details on the approach, input data, and validation results.
+
+{{< youtube id="kw3VqFDLo_4" title="SMAP-HydroBlocks presentation at the American Geophysical Union 2020 Fall Meeting" >}}
+
+
+
+### Data availability
+
+Subsets of the SMAP-HB dataset at 30-m 3-hr resolution (2015–2019) are available on request to Noemi Vergpolan (noemi.v.rocha@gmail.com). An aggregated version of the SMAP-HB dataset at 1-km 6-hr resolution (2015–2019) is available for download [here](https://zenodo.org/record/4441212). Future research will expand this dataset to near real-time.
+
+
+
+### Data citation
+
 Please cite the following paper when using the dataset in any publication:
 
 Vergopolan, N., Chaney, N. W., Beck, H. E., Pan, M., Sheffield, J., Chan, S., & Wood, E. F. (2020). Combining hyper-resolution land surface modeling with SMAP brightness temperatures to obtain 30-m soil moisture estimates. Remote Sensing of Environment, 242, 111740. https://doi.org/10.1016/j.rse.2020.111740

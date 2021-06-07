@@ -20,7 +20,7 @@ design:
     text_color_light: true
   spacing:
     # Customize the section spacing. Order is top, right, bottom, left.
-    padding: ["80px", "5px", "80px", "5px"]
+    padding: ["120px", "10px", "150px", "10px"]
 
 #advanced:
 #   css_style:
