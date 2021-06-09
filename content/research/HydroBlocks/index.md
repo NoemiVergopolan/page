@@ -1,6 +1,6 @@
 ---
 title: HydroBlocks
-summary: A field-scale resolving land surface model over continental extents
+summary: Development & applications of a field-scale resolving land surface model over continental extents
 tags:
 - Soil Moisture
 - Land Surface Modeling

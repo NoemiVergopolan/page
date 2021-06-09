@@ -8,7 +8,7 @@
 theme: my_theme
 day_night: true # enable uses to switch between light and dark
 font: #custom
-font_size: M
+font_size: L
 
 # SEO
 site_type: Person
