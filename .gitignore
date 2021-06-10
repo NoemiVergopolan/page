@@ -3,9 +3,11 @@
 
 # Hugo
 /resources/
+resources/
 public/
 jsconfig.json
 hugo
 node_modules/
 colorpallet.png
 *.tar.gz
+*.svg

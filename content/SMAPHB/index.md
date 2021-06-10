@@ -10,7 +10,7 @@ image:
   focal_point: 'center'
   preview_only: yes
 header:
-  image: "SMAPHB/header.png"
+  image: "header.png"
   caption: ""
 tags:
 - Soil Moisture

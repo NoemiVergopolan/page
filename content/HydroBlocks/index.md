@@ -11,7 +11,7 @@ image:
   focal_point: 'center'
   preview_only: yes
 header:
-  image: "HydroBlocks/header.gif"
+  image: "header.gif"
   caption: ""
   focal_point: 'center'
 tags:
@@ -44,9 +44,11 @@ HydroBlocks has been under development in a collaborative effort between Princet
 
 ## Applications for soil moisture monitoring
 
-Through my research, I applied HydroBlocks for simulating soil moisture at field scales across continental extents. The visualization below shows surface soil moisture at a 3-hour 30-meter resolution across the United States. 
+Soil moisture information is essential for water resources management and natural hazards risk assessment because it plays a key role in modulating water, energy, and carbon interactions between the land and atmosphere. However, it is also highly variable in space and time. Thus, HydroBlocks offers a unique opportunity to understand soil moisture dynamics at field scales across continental extents. The visualization below shows surface soil moisture at a 3-hour 30-meter resolution across the United States. 
 
-![](../../assets/media/HydroBlocks/header.gif)
+<!-- {{< video src="header.mp4" controls="yes" >}} -->
+
+![](header.gif) 
 
 We can observe that the soil moisture variability is mainly driven by the rainfall events, as the soil wets with the advance of rainfall storms. By interacting with the landscape, soil moisture gets redistributed to the valleys and riparian zones until it eventually dries down. We can also observe the different memories of soil moisture dry downs across the U.S. With fast and punctual wetting events happening in most of the West and slower and widespread wetting fronts in most Central and Northeastern U.S. Insets of this simulation are also ilustrated in Figures 3 and 4. 
 

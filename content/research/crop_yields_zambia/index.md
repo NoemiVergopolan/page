@@ -17,7 +17,10 @@ image:
   preview_only: true
   caption: 
   focal_point: Smart
-
+header:
+  image: "header.jpg"
+  caption: ""
+  focal_point: 'center'
 #links:
 #- icon: twitter
 #  icon_pack: fab
