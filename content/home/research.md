@@ -3,7 +3,7 @@ widget: portfolio
 widget_id: research
 headless: true
 weight: 40
-title: Research
+title: Data & Models
 subtitle: ""
 content:
   page_type: research
