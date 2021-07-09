@@ -63,7 +63,7 @@ highlight_name: true
 ---
 My research aims to aid water resource decision-making by improving monitoring and forecasting of hydrological hazards and their impacts from global to local spatial scales. To this aim, I work developing scalable solutions for high-resolution hydrological predictions by leveraging satellite remote sensing, land surface modeling, machine learning, data fusion, and high-performance computing. 
 
-I obtained a PhD in Civil and Environmental Engineering from Princeton University. Currently, I am a Postdoctoral Research Associate at the [Atmospheric and Ocean Science Program](https://aos.princeton.edu/) at Princeton University working on Earth System Modeling at the [NOAA](https://www.noaa.gov/) [Geophysical Fluid Dynamics Laboratory](https://www.gfdl.noaa.gov/).
+I obtained a PhD in Civil and Environmental Engineering from Princeton University working with Prof. Eric F. Wood and Prof. Justin Sheffield. Currently, I am a Postdoctoral Research Associate at the Princeton University [Atmospheric and Ocean Science Program](https://aos.princeton.edu/) and [NOAA](https://www.noaa.gov/) [Geophysical Fluid Dynamics Laboratory](https://www.gfdl.noaa.gov/) working with Dr. Elena Shevliakova on Earth System Modeling and satellite data assimialtion.
 
 Learn more about my interests in [research](#research) and [publications](publication).
 
