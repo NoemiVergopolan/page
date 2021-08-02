@@ -56,7 +56,7 @@ For illustration, SMAP-HB long-term and annual climatology at 30-m resolution ar
 
 ### Conference Presentation
 
-I presented this research at the American Geophysical Union 2020 Virtual Fall Meeting. Check out the video presentation below for more details on the approach, input data, and validation results.
+This research was presented at the American Geophysical Union 2020 Virtual Fall Meeting. Check out the video presentation below for more details on the approach, input data, and validation results.
 
 {{< youtube id="kw3VqFDLo_4" title="SMAP-HydroBlocks presentation at the American Geophysical Union 2020 Fall Meeting" >}}
 
