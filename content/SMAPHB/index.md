@@ -36,7 +36,7 @@ url: "SMAPHB/"
 
 ## Hyper-resolution satellite-based surface soil moisture over the continental United States
 
-SMAP-HydroBlocks is a hyper-resolution satellite-based surface soil moisture product at 3-hourly 30-m resolution over the continental United States (2015-2019). This dataset combines microwave satellite remote sensing, hyper-resolution land surface model, radiative transfer modeling, machine learning, and in-situ observations to obtain hydrologically consistent soil moisture estimates of the top 5-cm of the soil.
+SMAP-HydroBlocks is a hyper-resolution satellite-based surface soil moisture product at 30-m resolution over the continental United States (2015-2019). This dataset combines microwave satellite remote sensing, hyper-resolution land surface model, radiative transfer modeling, machine learning, and in-situ observations to obtain hydrologically consistent soil moisture estimates of the top 5-cm of the soil.
 
 Our approach is built upon HydroBlocks, a hyper-resolution land surface model that leverages the repeating spatial patterns over the landscape by implementing a hierarchical clustering algorithm to define its mesh ([Chaney et al., 2020](../publication/2020_chaney_two_way_coupling)). HydroBlocks groups the fine-scale drivers of the landscape spatial heterogeneity (e.g., 30-m land cover, soil properties, topography data) into complex tiles/clusters of similar hydrologic behavior. In this way, by simulating hydrological processes with clusters instead of regular grids, HydroBlocks yields an effective 30-m spatial resolution while leveraging the complex physics of land surface models and reducing the system's dimensionality and computational requirements.
 
@@ -64,8 +64,7 @@ This research was presented at the American Geophysical Union 2020 Virtual Fall 
 
 ### Data availability
 
-Subsets of the SMAP-HB dataset at 30-m 3-hr resolution (2015–2019) are available on request to Noemi Vergpolan (noemi.v.rocha@gmail.com). An aggregated version of the SMAP-HB dataset at 1-km 6-hr resolution (2015–2019) is available for download [here](https://zenodo.org/record/4441212). Future research will expand this dataset to near real-time.
-
+The SMAP-HB surface soil moisture dataset at 6-h 30-m resolution (2015-2019) mapped in regular geographic coordinates comprises 180 TB of storage. Due to storage limitation of online repositories, we provide the raw data at the HRU level at 6-h resolution (time, hru) compressed to 36GB, along with a python script for post-processing the data to 30-m 6-h resolution into geographic coordinates (time, latitude, longitude). An aggregated version at 1-km 6-h resolution at geographic coordinates (time, latitude, longitude) comprising 33.7 GB is also made available. The data are provided in self-describing netCDF-4 format. Data are available for download [here](https://zenodo.org/record/4441212). In addition, subsets of the data can also be made available on request to Noemi Vergpolan (noemi.v.rocha@gmail.com). 
 
 
 ### Data citation
