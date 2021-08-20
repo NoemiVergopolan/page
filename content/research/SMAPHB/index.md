@@ -1,6 +1,6 @@
 ---
 title: SMAP-HydroBlocks
-summary: The first hyper-resolution satellite-based surface soil moisture dataset at 30-m resolution over the continental United States
+summary: SMAP-HydroBlocks is the first field-scale hyper-resolution satellite-based surface soil moisture dataset at 30-m resolution over the continental United States. Learn more about it [here](../../SMAPHB).
 #tags:
 #- Soil Moisture
 #- Remote Sensing
