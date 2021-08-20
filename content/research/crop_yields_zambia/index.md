@@ -1,6 +1,7 @@
 ---
-title: Crop Yield Prediction 
-summary: Combining hyper-resolution land surface modeling and machine learning for predicting crop yields at field scale
+title: Field-scale Crop Yield Prediction 
+summary: Field-scale satellite observations, physical models, and machine learning combined can enable crop yield prediction at high spatial resolution at data-scarse regions. Learn more about it [here](research/crop_yields_zambia). 
+
 tags:
 - Soil Moisture
 - Agriculture
