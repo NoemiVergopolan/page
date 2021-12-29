@@ -63,7 +63,7 @@ url_pdf: https://gmd.copernicus.org/articles/14/6813/2021/gmd-14-6813-2021.pdf
 url_code: https://zenodo.org/record/4071692#.Ycyjib1ue3I
 url_dataset: ''
 url_poster: ''
-url_project: ''
+url_project: https://waterai.earth/hydroblocks/
 url_slides: ''
 url_source: ''
 url_video: ''
@@ -89,6 +89,5 @@ projects:
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
 #slides: #example
-
 ---
 

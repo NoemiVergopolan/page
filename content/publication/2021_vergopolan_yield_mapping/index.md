@@ -61,7 +61,7 @@ url_pdf: https://hess.copernicus.org/articles/25/1827/2021/hess-25-1827-2021.pdf
 url_code: ''
 url_dataset: ''
 url_poster: ''
-url_project: ''
+url_project: 'https://waterai.earth/research/crop_yields_zambia/'
 url_slides: ''
 url_source: ''
 url_video: ''
