@@ -55,9 +55,9 @@ featured: true
 
 url_pdf: https://rdcu.be/czn3m
 url_code: ''
-url_dataset: ''
+url_dataset: https://zenodo.org/record/5206725#.YcysvL1ue3I
 url_poster: ''
-url_project: ''
+url_project: https://waterai.earth/smaphb/
 url_slides: ''
 url_source: ''
 url_video: ''
