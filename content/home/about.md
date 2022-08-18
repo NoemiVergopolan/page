@@ -13,14 +13,14 @@ design:
     color: black
     # background image
     image: background.jpg
-    image_darken: 0.45
+    image_darken: 0.35
     image_size: cover
     image_position: center
     image_parallax: true
     text_color_light: true
   spacing:
     # Customize the section spacing. Order is top, right, bottom, left.
-    padding: ["120px", "10px", "150px", "10px"]
+    padding: ["110px", "10px", "110px", "10px"]
 
 #advanced:
 #   css_style:

@@ -52,7 +52,7 @@ summary: Although there have been significant advances in river routing and sub-
 tags: [HydroBlocks, Land Surface Modeling, River Routing]
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Custom links (uncomment lines below)
 # links:

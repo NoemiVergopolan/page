@@ -2,10 +2,13 @@
 title: Noemi Vergopolan
 role: Computational Hydrology
 avatar_filename: avatar.jpg
-bio: ""
+superuser: True
+bio:
+
 interests:
   - Hydrology
   - Agriculture
+  - Floods and Droughts
   - Satellite Remote Sensing
   - Artificial Intelligence
   - High Performance Computing
@@ -60,10 +63,11 @@ highlight_name: true
 
 # {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
 
+# My contribution to science, in 2022 I was awarded with the Paul F. Boulos Excellence in Computational Hydrology Award by the [Environmental Engineering and Science Foundation](https://www.eesfoundation.org/).
 ---
-My research aims to aid water resource decision-making by improving monitoring and forecasting of hydrological hazards and their impacts from global to local spatial scales. To this aim, I work developing scalable solutions for high-resolution hydrological predictions by leveraging satellite remote sensing, land surface modeling, machine learning, data fusion, and high-performance computing. 
+I am a computational hydrologist, engineer, and scientist working on solutions for water resources and climate. My research aims to aid actionable decision-making by improving hydrological information for monitoring and forecasting of hydrological extremes and their impacts. To this end, I develop scalable computational approaches for high-resolution hydrological prediction by leveraging satellite remote sensing, land surface modeling, machine learning, data fusion, and high-performance computing. My research targets local to global applications on freshwater resources, agriculture, floods and droughts, and land-atmosphere interactions.
 
-I obtained a PhD in Civil and Environmental Engineering from Princeton University working with Prof. Eric F. Wood and Prof. Justin Sheffield. Currently, I am a Postdoctoral Research Associate at the Princeton University [Atmospheric and Ocean Science Program](https://aos.princeton.edu/) and [NOAA](https://www.noaa.gov/) [Geophysical Fluid Dynamics Laboratory](https://www.gfdl.noaa.gov/) working with Dr. Elena Shevliakova on Earth System Modeling and satellite data assimilation.
+### Background
+Currently, I am a postdoctoral research associate in the [Atmospheric and Ocean Science Program](https://aos.princeton.edu/) at Princeton University and the [NOAA Geophysical Fluid Dynamics Laboratory](https://www.gfdl.noaa.gov/) working with Dr. Elena Shevliakova on Earth System Modeling and satellite land data assimilation. In 2021, I obtained a PhD in Civil and Environmental Engineering from Princeton University, working with Prof. Eric Wood and Justin Sheffield. Before Princeton, I worked on water resources and environmental engineering consulting. 
 
-Learn more about my interests in [research](#research) and [publications](publication).
-
+Learn more about my interests in [research](#research) and [publications](publication), and by following my updates on [Twitter](https://twitter.com/NVergopolan).
