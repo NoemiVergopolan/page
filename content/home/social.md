@@ -27,18 +27,20 @@ design:
 
 
 ---
-
 {{< twitter nvergopolan >}}
- 
- 
-<!-- {{< row >}}
+
+<!-- 
+{{< row >}}
 {{< column>}}
-something 1
+{{< tweet 1447966923707207681 >}}
+{{< tweet 1545161288686284801 >}}
 {{< /column>}}
 {{< column>}}
-something 2
+{{< tweet 666616452582129664 >}}
+{{< tweet 666616452582129664 >}}
 {{< /column>}}
-{{< /row >}} -->
+{{< /row >}}
+-->
 
 <!-- 
 ## Press and Media
