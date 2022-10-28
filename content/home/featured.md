@@ -1,7 +1,7 @@
 ---
 # An instance of the Featured widget.
 # Documentation: https://wowchemy.com/docs/page-builder/
-widget: featured
+widget: collection
 
 # This file represents a page section.
 headless: true
@@ -10,7 +10,7 @@ headless: true
 weight: 70
 
 title: Featured Publications
-subtitle: ""
+subtitle: ''
 
 content:
   # Page type to display. E.g. post, talk, publication...
@@ -19,10 +19,11 @@ content:
   count: 4
   # Filter on criteria
   filters:
-    author: ""
-    category: ""
-    publication_type: ""
-    tag: ""
+    featured_only: true
+    author: ''
+    category: ''
+    publication_type: ''
+    tag: ''
   # Page order: descending (desc) or ascending (asc) date.
   order: desc
 

@@ -2,7 +2,6 @@
 .idea/
 
 # Hugo
-/resources/
 resources/
 public/
 jsconfig.json
@@ -11,3 +10,5 @@ node_modules/
 colorpallet.png
 *.tar.gz
 *.svg
+go.sum
+.hugo_build.lock

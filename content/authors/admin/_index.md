@@ -1,8 +1,21 @@
 ---
 title: Noemi Vergopolan
+
+first_name: Noemi
+last_name: Vergopolan
+
 role: Computational Hydrology
+
+organizations:
+  - name: Princeton University
+    url: https://www.princeton.edu/
+
 avatar_filename: avatar.jpg
-superuser: True
+
+email: noemi@princeton.edu
+superuser: true
+highlight_name: true
+
 bio:
 
 interests:
@@ -57,9 +70,6 @@ education:
     - course: BS Environmental Engineering
       institution: Federal University of Paraná, 2014
       year: 
-email: noemi.v.rocha@gmail.com
-superuser: true
-highlight_name: true
 
 # {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
 
