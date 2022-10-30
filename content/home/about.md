@@ -13,7 +13,7 @@ design:
     color: black
     # background image
     image: background.jpg
-    image_darken: 0.35
+    image_darken: 0.25
     image_size: cover
     image_position: center
     image_parallax: true

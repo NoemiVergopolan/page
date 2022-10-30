@@ -9,7 +9,7 @@ appearance:
   theme_day: minimal
   theme_night: minimal
   day_night: true # enable uses to switch between light and dark
-  font: #minimal
+  font: minimal
   font_size: M
 
 marketing:
