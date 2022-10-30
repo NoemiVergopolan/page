@@ -1,5 +1,5 @@
 ---
-title: Publications
+title: Peer-Review Publications
 cms_exclude: true
 
 # View.
@@ -10,7 +10,8 @@ cms_exclude: true
 view: 2
 
 # Optional header image (relative to `static/media/` folder).
-header:
-  caption: ''
-  image: ''
+banner:
+  image: "publications.png"
+  caption: ""
+  focal_point: 'center'
 ---

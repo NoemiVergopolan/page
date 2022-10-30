@@ -43,7 +43,7 @@ abstract: Accurate crop yield forecasts before harvest are crucial for providing
 # Summary. An optional shortened abstract.
 summary:
 
-tags: [Agriculture, Machine Learning, Machine Learning, Crop, Yield, Forecast]
+tags: [Agriculture, Machine Learning, Machine Learning, Crops, Forecast]
 
 # Display this page in the Featured widget?
 featured: false

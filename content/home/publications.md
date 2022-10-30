@@ -25,11 +25,11 @@ content:
     category: ''
     publication_type: ''
     author: ''
-    exclude_featured: false
+    exclude_featured: true
     exclude_future: false
     exclude_past: false
   # Choose how many pages you would like to display (0 = all pages)
-  count: 4
+  count: 5
   # Choose how many pages you would like to offset by
   offset: 0
   # Page order: descending (desc) or ascending (asc) date.
@@ -40,8 +40,7 @@ design:
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view: citation
-  columns: '2'
+  view: 2
   spacing:
     # Customize the section spacing. Order is top, right, bottom, left.
     padding: ["60px", "10px", "80px", "10px"]

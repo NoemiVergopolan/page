@@ -41,7 +41,7 @@ abstract: Given the varying manifestations of climate change over time and the i
 # Summary. An optional shortened abstract.
 summary:
 
-tags: [Climate, Agriculture, Smallholder Farming, Precipitation, Soil Moisture, HydroBlocks]
+tags: [Climate Change, Climate, Agriculture, Crops, Smallholder Farming, Precipitation, Soil Moisture, HydroBlocks, Sociohydrology]
 
 # Display this page in the Featured widget?
 featured: false

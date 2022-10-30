@@ -43,7 +43,7 @@ abstract: Soil Moisture (SM) is a direct measure of agricultural drought. While 
 # Summary. An optional shortened abstract.
 summary:
 
-tags: [Food Security, Soil Moisture, Remote Sensing, Drought, SMAP]
+tags: [Agriculture, Food Security, Soil Moisture, Remote Sensing, Droughts, SMAP]
 
 # Display this page in the Featured widget?
 featured: false

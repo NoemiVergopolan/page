@@ -48,7 +48,7 @@ abstract: Dry conditions in 2013–16 in much of the western United States were 
 # Summary. An optional shortened abstract.
 summary:
 
-tags: [Forecast, El Nino, Precipitation, Temperature, SWE, Snow]
+tags: [Forecast, Climate, El Nino, Precipitation, Temperature, SWE, Snow]
 
 # Display this page in the Featured widget?
 featured: false

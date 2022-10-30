@@ -10,7 +10,7 @@ image:
   caption: ''
   focal_point: 'center'
   preview_only: yes
-header:
+banner:
   image: "header.gif"
   caption: ""
   focal_point: 'center'

@@ -6,6 +6,8 @@ widget: collection
 # This file represents a page section.
 headless: true
 
+active: false
+
 # Active or not
 active: false
 

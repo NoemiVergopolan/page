@@ -1,5 +1,9 @@
 ---
 title: Display Jupyter Notebooks with Academic
+
+active: false
+draft: true
+
 subtitle: Learn how to blog in Academic using Jupyter notebooks
 summary: Learn how to blog in Academic using Jupyter notebooks
 authors:

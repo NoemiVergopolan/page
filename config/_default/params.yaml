@@ -6,8 +6,8 @@
 # Appearance
 
 appearance:
-  theme_day: my_theme
-  theme_night: my_theme
+  theme_day: minimal
+  theme_night: minimal
   day_night: true # enable uses to switch between light and dark
   font: #minimal
   font_size: M
@@ -44,7 +44,8 @@ header:
     align: l
     show_logo: true
     show_language: false
-    show_day_night: true
+    show_day_night: false
+    show_translations: true
     show_search: true
     highlight_active_link: true
 

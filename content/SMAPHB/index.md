@@ -9,13 +9,15 @@ image:
   caption: ''
   focal_point: 'center'
   preview_only: yes
-header:
+banner:
   image: "header.png"
   caption: ""
+  focal_point: 'center'
 tags:
 - Soil Moisture
 - Hyper-resolution
 - Satellite
+- Remote Sensing
 - HydroBlocks
 share: true
 title: "SMAP-HydroBlocks"

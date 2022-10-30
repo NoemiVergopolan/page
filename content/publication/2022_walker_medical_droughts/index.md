@@ -45,7 +45,7 @@ abstract: "Drought management is currently informed by a variety of approaches, 
 # Summary. An optional shortened abstract.
 summary: "Drought management is currently informed by a variety of approaches, mostly responding to drought crisis when it happens. Toward more effective and integrated drought management, we introduce a conceptual drought diagnosis framework inspired by diagnostic concepts from the field of medicine. This framework comprises five steps: 1. Initial diagnostic assessment; 2. Diagnostic testing; 3. Consultation; 4. Communication of the diagnosis; and 5. Treatment and prognosis. This framework can help drought managers to be more proactive in enabling drought-affected regions to become more drought resilient in the future."
 
-tags: [Drought, Sociohydrology, Medical Science]
+tags: [Droughts, Sociohydrology]
 
 # Display this page in the Featured widget?
 featured: false

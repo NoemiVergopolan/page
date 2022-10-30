@@ -5,7 +5,7 @@ summary: Field-scale satellite observations, physical models, and machine learni
 tags:
 - Soil Moisture
 - Agriculture
-- Crop Yields
+- Crops
 - Hyper-resolution
 - Droughts
 - HydroBlocks
@@ -18,8 +18,8 @@ image:
   preview_only: true
   caption: 
   focal_point: Smart
-header:
-  image: "header.jpg"
+banner:
+  image: 'header.jpg'
   caption: ""
   focal_point: 'center'
 #links:
@@ -37,7 +37,7 @@ url_video: ""
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: example
+#slides: example
 ---
 
 

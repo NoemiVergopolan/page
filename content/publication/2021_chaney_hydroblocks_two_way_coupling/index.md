@@ -49,10 +49,10 @@ The resulting routing scheme provides an effective and efficient path forward to
 summary: Although there have been significant advances in river routing and sub-grid heterogeneity (i.e., tiling) schemes in Earth system models over the past decades, there has yet to be a concerted effort to couple these two concepts. This paper aims to bridge this gap through the development of a two-way coupling between tiling schemes and river networks in the HydroBlocks land surface model. The scheme is implemented and tested over a 1 arc degree domain in Oklahoma, United States.
 
 
-tags: [HydroBlocks, Land Surface Modeling, River Routing]
+tags: [HydroBlocks, Land Surface Modeling, Rivers, Floods]
 
 # Display this page in the Featured widget?
-featured: false
+featured: true
 
 # Custom links (uncomment lines below)
 # links:
