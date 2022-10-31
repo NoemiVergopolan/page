@@ -56,11 +56,11 @@ education:
       institution: Princeton University, 2021
       institution_url: https://cee.princeton.edu/
       year: 
-    - certificate: Statistics & Machine Learning Certificate
+    - course: Statistics & Machine Learning Certificate
       institution: Princeton University, 2021
       certificate_url: https://csml.princeton.edu/graduate/certificate-program
       year: 
-    - certificate: Computational Science & Engineering Certificate
+    - course: Computational Science & Engineering Certificate
       institution: Princeton University, 2019
       certificate_url: https://researchcomputing.princeton.edu/learn/cse-graduate-certificate
       year: 
