@@ -27,7 +27,9 @@ design:
 
 
 ---
-{{< twitter nvergopolan >}}
+<a class="twitter-timeline" data-width="650" data-height="10000" href="https://twitter.com/NVergopolan?ref_src=twsrc%5Etfw">Tweets by NVergopolan</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<!-- {{< twitter nvergopolan >}} --!>
 
 <!-- 
 {{< row >}}
