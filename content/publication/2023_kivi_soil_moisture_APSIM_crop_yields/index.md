@@ -6,7 +6,7 @@ authors:
 - admin
 - Hamze Dokoohaki
 date: "2022-10-25T00:00:00Z"
-doi: "https://doi.org/10.5194/hess-2022-342"
+doi: "doi.org/10.5194/hess-27-1173-2023"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2022-10-25T00:00:00Z"
@@ -15,7 +15,7 @@ publishDate: "2022-10-25T00:00:00Z"
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
 publication: In *Hydrology and Earth System Sciences*
@@ -39,7 +39,7 @@ featured: false
 links:
 #- name: Custom Link
 #  url: 
-url_pdf: https://hess.copernicus.org/preprints/hess-2022-342/hess-2022-342.pdf
+url_pdf: https://hess.copernicus.org/articles/27/1173/2023/hess-27-1173-2023.pdf
 url_code: 
 url_dataset: 
 url_poster: 

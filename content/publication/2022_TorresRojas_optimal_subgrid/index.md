@@ -16,7 +16,7 @@ publishDate: "2022-12-09T00:00:00Z"
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
 publication: In *Water Resources Research*
@@ -38,7 +38,7 @@ featured: false
 links:
 #- name: Custom Link
 #  url: 
-url_pdf: 2022_Torres‐Rojas_Optimal_SubGrid.pdf
+url_pdf: 2022_TorresRojas_optimal_subgrid.pdf
 url_code: 
 url_dataset: 
 url_poster: 
