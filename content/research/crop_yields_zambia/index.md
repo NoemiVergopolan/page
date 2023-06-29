@@ -63,6 +63,8 @@ The key findings of the work are:
 
 **Drought impacts**: There is a highly non-linear relationship between drought indices and yield losses. However, consistent maize losses are observed when soil moisture or precipitation drop below the 25th percentile. At extreme dry conditions (5th percentile), soil moisture identifies 26% more losses with 21% less uncertainty than precipitation, providing an effective measure of drought impact. Significant yield losses are also predicted when soil temperature exceeded 37.5 $^{\circ}$C in the early growing season. Drought impacted yields differently across the landscape, with most of the spatial variability coming from soil moisture.
 
+**Data Availability**: The annual maize crop yield maps are available [here](https://drive.google.com/drive/folders/13SvABThdEAIg-VuiGtI-hCfouLIYB-jb?usp=sharing), other hydroclimate data generated as part of this study are also available upon request.
+
 ### Reference:
 
 Vergopolan, N., Xiong, S., Estes, L., Wanders, N., Chaney, N. W., Wood, E. F., Konar, M., Caylor, K., Beck, H. E., Gatti, N., Evans, T., and Sheffield, J.: Field-scale soil moisture bridges the spatial-scale gap between drought monitoring and agricultural yields, Hydrol. Earth Syst. Sci., 25, 1827–1847, [https://doi.org/10.5194/hess-25-1827-2021](https://doi.org/10.5194/hess-25-1827-2021), 2021.
