@@ -20,7 +20,7 @@ publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
 publication: In *Water Resources Research*
-publication_short: "WRR"
+publication_short: ""
 
 abstract: This study assesses the added value of using emerging maps of soil properties to improve surface soil moisture simulations using the HydroBlocks land surface model with different soil hydraulic parameterization schemes. Simulations were run at an hourly 30-m resolution between 2012 and 2019 and evaluated against U.S. Climate Reference Network measurements. The results show that state-of-the-art soil properties maps (POLARIS and SoilGrids250m V2.0) improve the accuracy of simulated surface soil moisture when compared to the STATSGO-derived CONUS-SOIL map. Contemporary pedotransfer functions (multi-linear regression and Artificial Neural Networks-based) also improve model performance in comparison to the lookup table-derived soil parameterization schemes. The addition of vertical heterogeneity to the soil properties further improves the mean Kling-Gupta efficiency by 0.04 and lowers the mean Root mean square error by 0.003 over the CONUS. This study demonstrates that land surface modeling can be improved by using state-of-the-art maps of soil properties, accounting for the vertical heterogeneity of soils, and advancing the use of contemporary pedotransfer functions.
 

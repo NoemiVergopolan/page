@@ -7,11 +7,11 @@ cms_exclude: true
 #   2 = Compact
 #   3 = Card
 #   4 = Citation
-view: 2
+view: 4
 
 # Optional header image (relative to `static/media/` folder).
 banner:
-  image: "publications.png"
+  image: "publications.jpg"
   caption: ""
   focal_point: 'center'
 ---

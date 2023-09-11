@@ -10,9 +10,7 @@ headless: true
 weight: 80
 
 title: Recent Publications
-subtitle: 
-
-# Complete list [here](./publication/) and on [Google Scholar](https://scholar.google.com.br/citations?user=ETyTAKcAAAAJ&hl).
+subtitle: "More on [Publications](./publication/) and [Google Scholar](https://scholar.google.com.br/citations?user=ETyTAKcAAAAJ&hl)"
 
 content:
   # Page type to display. E.g. post, talk, publication...
@@ -48,5 +46,5 @@ design:
 ---
 
 
-<!-- Complete list [here](./publication/) and on [Google Scholar](https://scholar.google.com.br/citations?user=ETyTAKcAAAAJ&hl). -->
+<!-- Complete list [here](./publication/) and on [Google Scholar](https://scholar.google.com.br/citations?user=ETyTAKcAAAAJ&hl).  -->
 
