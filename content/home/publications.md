@@ -29,7 +29,7 @@ content:
     exclude_future: false
     exclude_past: false
   # Choose how many pages you would like to display (0 = all pages)
-  count: 5
+  count: 7
   # Choose how many pages you would like to offset by
   offset: 0
   # Page order: descending (desc) or ascending (asc) date.
@@ -40,13 +40,13 @@ design:
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view: 2
+  view: 1
   spacing:
     # Customize the section spacing. Order is top, right, bottom, left.
-    padding: ["60px", "10px", "80px", "10px"]
+    padding: ["80px", "20px", "80px", "20px"]
 
 ---
 
-<!---
- Complete list [here](./publication/) and on [Google Scholar](https://scholar.google.com.br/citations?user=ETyTAKcAAAAJ&hl).
--->
+
+<!-- Complete list [here](./publication/) and on [Google Scholar](https://scholar.google.com.br/citations?user=ETyTAKcAAAAJ&hl). -->
+

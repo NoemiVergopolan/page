@@ -1,5 +1,5 @@
 ---
-title: "Is closing the agricultural yield gap a “risky” endeavor?"
+title: "Is Closing the Agricultural Yield Gap a “Risky” Endeavor?"
 
 authors:
 - Nicolas Gatti

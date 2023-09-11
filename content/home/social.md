@@ -15,7 +15,7 @@ widget: blank
 widget_id: social
 headless: true
 weight: 120
-title: Social
+title: "News & Social"
 active: true
 
 
@@ -23,7 +23,7 @@ design:
   columns: '2'
   spacing:
     # Customize the section spacing. Order is top, right, bottom, left.
-    padding: ["80px", "10px", "80px", "10px"]
+    padding: ["80px", "20px", "80px", "20px"]
 
 
 ---
