@@ -24,6 +24,8 @@ content:
     category: ''
     publication_type: ''
     tag: ''
+  archive:
+    enable: false
   # Page order: descending (desc) or ascending (asc) date.
   order: desc
 
