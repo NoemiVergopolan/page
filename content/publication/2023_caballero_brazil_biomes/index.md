@@ -38,7 +38,7 @@ featured: false
 links:
 #- name: Custom Link
 #  url: 
-url_pdf: 2023_Caballero_Transformations_of_Brazil_Biomes.pdf
+url_pdf: /publication/2023_caballero_brazil_biomes/2023_caballero_transformations_of_brazil_biomes.pdf
 url_code: 
 url_dataset: 
 url_poster: 
