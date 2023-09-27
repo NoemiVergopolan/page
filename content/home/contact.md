@@ -27,7 +27,7 @@ content:
       captcha: false
 
   # Contact details (edit or remove options as required)
-  email: noemi@princeton.edu
+  #email: noemi@princeton.edu
   # phone: 888 888 88 88
   # address:
   #   street: 450 Serra Mall
@@ -45,10 +45,24 @@ content:
   #   - 'Wednesday 09:00 to 10:00'
   # appointment_url: 'https://calendly.com'
   contact_links:
+    - icon: envelope
+      icon_pack: fas
+      name: 'Noemi.Vergopolan@noaa.gov'
+      link: 'malito:Noemi.Vergopolan@noaa.gov'
+    - icon: envelope
+      icon_pack: fas
+      name: 'Noemi@princeton.edu'
+      link: 'malito:noemi@princeton.edu'
     - icon: twitter
       icon_pack: fab
       name: '@NVergopolan'
       link: 'https://twitter.com/NVergopolan'
+    - icon: linkedin
+      name: LinkedIn
+      icon_pack: fab
+      link: https://www.linkedin.com/in/vergopolan/
+    
+    
     # - icon: video
     #   icon_pack: fas
     #   name: Zoom Me
