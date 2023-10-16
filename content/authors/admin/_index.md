@@ -79,7 +79,10 @@ I am a computational hydrologist, engineer, and scientist working on solutions f
 
 Currently, I am working on satellite land data assimilation for Earth System Models as a researcher in the [Atmospheric and Ocean Science Program](https://aos.princeton.edu/) at Princeton University and visiting research scientist at the [NOAA Geophysical Fluid Dynamics Laboratory](https://www.gfdl.noaa.gov/). Prior, I worked on water resources and environmental engineering consulting. I hold a M.A. and Ph.D. in Civil and Environmental Engineering from Princeton University.
 
-For my contribution to science, I was awarded the 2022 Paul F. Boulos Excellence in Computational Hydrology Award by the American Academy of Environmental Engineers and Scientists and the 2022 AGU Science for Solutions Award for *"outstanding contributions to water and food security through advances in hyper-resolution land surface modeling and satellite remote sensing"*.
+For my contribution to science, I was awarded the 2022 AGU Science for Solutions Award for *"outstanding contributions to water and food security through advances in hyper-resolution land surface modeling and satellite remote sensing"* and the 2022 Paul F. Boulos Excellence in Computational Hydrology Award by the American Academy of Environmental Engineers and Scientists.
 
 Learn more about my interests in [research](#research) and [publications](publication), and by following my updates on [Twitter](https://twitter.com/NVergopolan).
 
+__________
+**News**: Starting in July 2024, I will join [Rice University](https://www.rice.edu/) as an Assistant Professor in the [Department of Earth, Environment, and Planetary Sciences](https://eeps.rice.edu/). Prospective PhD students and postdocs keen on contributing to the fields of computational hydrology and remote sensing are encouraged to [reach out](#contact).
+__________
