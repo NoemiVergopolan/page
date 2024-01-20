@@ -9,6 +9,8 @@ role: Computational Hydrology
 organizations:
   - name: Princeton University
     url: https://www.princeton.edu/
+  - name: Rice University
+    url: https://www.rice.edu/
 
 avatar_filename: avatar.jpg
 
@@ -33,11 +35,9 @@ social:
     link: /#contact
     display:
       header: true
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/NVergopolan
-    display:
-      header: true
+  - icon: cv
+    icon_pack: ai
+    link: /pdf/Vergopolan_CV_2024.pdf
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.com.br/citations?user=ETyTAKcAAAAJ&hl=en
@@ -47,6 +47,11 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/NoemiVergopolan
+  - icon: twitter
+    icon_pack: fab
+    link: https://twitter.com/NVergopolan
+    display:
+      header: true
 organizations:
   - name: Princeton University
     url: https://www.princeton.edu/
@@ -68,8 +73,9 @@ education:
       institution: Princeton University, 2017
       year: 
     - course: BS Environmental Engineering
-      institution: Federal University of Paraná, 2014
+      institution: Federal University of Paraná (Brazil), 2014
       year: 
+    
 
 # {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
 
@@ -84,5 +90,5 @@ For my contribution to science, I was awarded the 2022 AGU Science for Solutions
 Learn more about my interests in [research](#research) and [publications](publication), and by following my updates on [Twitter](https://twitter.com/NVergopolan).
 
 __________
-**News**: Starting in July 2024, I will join [Rice University](https://www.rice.edu/) as an Assistant Professor in the [Department of Earth, Environment, and Planetary Sciences](https://eeps.rice.edu/). Prospective PhD students and postdocs keen on contributing to the fields of computational hydrology and remote sensing are encouraged to revise the positions' [details](/pdf/2024_fall_job_positions.pdf) and [reach out](#contact).
+**News**: Starting in July 2024, I will join [Rice University](https://www.rice.edu/) as faculty in the [Department of Earth, Environment, and Planetary Sciences](https://eeps.rice.edu/). Prospective PhD students and postdocs keen on contributing to the fields of computational hydrology and remote sensing are encouraged to revise the positions' [details](/pdf/2024_fall_job_positions.pdf) and [reach out](#contact).
 __________
