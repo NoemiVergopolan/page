@@ -90,5 +90,5 @@ For my contribution to science, I was awarded the 2022 AGU Science for Solutions
 Learn more about my interests in [research](#research) and [publications](publication), and by following my updates on [Twitter](https://twitter.com/NVergopolan).
 
 __________
-**News**: Starting in July 2024, I will join [Rice University](https://www.rice.edu/) as faculty in the [Department of Earth, Environment, and Planetary Sciences](https://eeps.rice.edu/). Prospective PhD students and postdocs keen on contributing to the fields of computational hydrology and remote sensing are encouraged to revise the positions' [details](/pdf/2024_fall_job_positions.pdf) and [reach out](#contact).
+**News**: Starting in July 2024, I will join [Rice University](https://www.rice.edu/) as faculty in the [Department of Earth, Environment, and Planetary Sciences](https://eeps.rice.edu/). Prospective PhD students and postdocs keen on contributing to the fields of computational hydrology and remote sensing are encouraged to revise the [requirements](/pdf/candidates_information.pdf) and [reach out](#contact).
 __________
