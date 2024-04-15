@@ -14,7 +14,7 @@ organizations:
 
 avatar_filename: avatar.jpg
 
-email: noemi@princeton.edu
+email: Noemi.Vergopolan@rice.edu
 superuser: true
 highlight_name: true
 
@@ -53,8 +53,8 @@ social:
     display:
       header: true
 organizations:
-  - name: Princeton University
-    url: https://www.princeton.edu/
+  - name: Rice University
+    url: https://eeps.rice.edu/
 education:
   courses:
     - course: PhD in Civil & Environmental Engineering
