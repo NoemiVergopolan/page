@@ -45,18 +45,18 @@ content:
   #   - 'Wednesday 09:00 to 10:00'
   # appointment_url: 'https://calendly.com'
   contact_links:
-    - icon: envelope
-      icon_pack: fas
-      name: 'Noemi.Vergopolan@noaa.gov'
-      link: 'malito:Noemi.Vergopolan@noaa.gov'
+  #  - icon: envelope
+  #    icon_pack: fas
+  #    name: 'Noemi.Vergopolan@noaa.gov'
+  #    link: 'malito:Noemi.Vergopolan@noaa.gov'
     - icon: envelope
       icon_pack: fas
       name: 'Noemi.Vergopolan@rice.edu'
       link: 'malito:Noemi.Vergopolan@rice.edu'
-    - icon: envelope
-      icon_pack: fas
-      name: 'Noemi@princeton.edu'
-      link: 'malito:noemi@princeton.edu'
+  #  - icon: envelope
+  #    icon_pack: fas
+  #    name: 'Noemi@princeton.edu'
+  #    link: 'malito:noemi@princeton.edu'
     - icon: twitter
       icon_pack: fab
       name: '@NVergopolan'

@@ -7,8 +7,6 @@ last_name: Vergopolan
 role: Computational Hydrology
 
 organizations:
-  - name: Princeton University
-    url: https://www.princeton.edu/
   - name: Rice University
     url: https://www.rice.edu/
 
@@ -83,12 +81,8 @@ education:
 ---
 I am a computational hydrologist, engineer, and scientist working on solutions for water resources and climate. My research aims to aid actionable decision-making by improving hydrological information for monitoring and forecasting hydrological extremes and their impacts at the local scales. To this end, I develop scalable computational approaches for high-resolution hydrological prediction by leveraging advances in satellite remote sensing, land surface modeling, machine learning, data fusion, and high-performance computing. 
 
-Currently, I am working on satellite land data assimilation for Earth System Models as a researcher in the [Atmospheric and Ocean Science Program](https://aos.princeton.edu/) at Princeton University and visiting research scientist at the [NOAA Geophysical Fluid Dynamics Laboratory](https://www.gfdl.noaa.gov/). Prior, I worked on water resources and environmental engineering consulting. I hold a M.A. and Ph.D. in Civil and Environmental Engineering from Princeton University.
+Currently, I am assistant professor at the [Earth, Environment, and Planetary Sciences Department](https://eeps.rice.edu/) at [Rice University](https://www.rice.edu/). Previously, I developed satellite land data assimilation for Earth System Models as a visiting research scientist at the [NOAA Geophysical Fluid Dynamics Laboratory](https://www.gfdl.noaa.gov/) and postdoctoral researcher at the [Atmospheric and Ocean Science Program](https://aos.princeton.edu/) at Princeton University. Prior, I worked on water resources and environmental engineering consulting. I hold a M.A. and Ph.D. in Civil and Environmental Engineering from Princeton University.
 
 For my contribution to science, I was awarded the 2022 AGU Science for Solutions Award for *"outstanding contributions to water and food security through advances in hyper-resolution land surface modeling and satellite remote sensing"* and the 2022 Paul F. Boulos Excellence in Computational Hydrology Award by the American Academy of Environmental Engineers and Scientists.
 
-Learn more about my interests in [research](#research) and [publications](publication), and by following my updates on [Twitter](https://twitter.com/NVergopolan).
-
-__________
-**News**: Starting in July 2024, I will join [Rice University](https://www.rice.edu/) as faculty in the [Department of Earth, Environment, and Planetary Sciences](https://eeps.rice.edu/). Prospective PhD students and postdocs keen on contributing to the fields of computational hydrology and remote sensing are encouraged to revise the [requirements](/pdf/candidates_information.pdf) and [reach out](#contact).
-__________
+Learn more about my interests in [research](#research) and [publications](publication), and by following my updates on [Twitter](https://twitter.com/NVergopolan). Prospective PhD students and postdocs keen on contributing to the fields of computational hydrology and remote sensing are encouraged to revise the [requirements](/pdf/candidates_information.pdf) and [reach out](#contact) for position availability.

@@ -27,7 +27,11 @@ design:
 
 
 ---
-<a class="twitter-timeline" data-width="650" data-height="10000" href="https://twitter.com/NVergopolan?ref_src=twsrc%5Etfw">Tweets by NVergopolan</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<!-- <a class="twitter-timeline" data-width="650" data-height="10000" href="https://twitter.com/NVergopolan?ref_src=twsrc%5Etfw">Tweets by NVergopolan</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+
+<!-- <iframe src='https://widgets.sociablekit.com/linkedin-profile-posts/iframe/25444426' frameborder='0' width='100%' height='1000'></iframe> -->
+
+<div class='sk-ww-linkedin-profile-post' data-embed-id='25444426'></div><script src='https://widgets.sociablekit.com/linkedin-profile-posts/widget.js' async defer></script>
 
 <!-- {{< twitter nvergopolan >}} --!>
 
