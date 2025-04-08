@@ -12,7 +12,7 @@ organizations:
 
 avatar_filename: avatar.jpg
 
-email: Noemi.Vergopolan@rice.edu
+email: vergopolan@rice.edu
 superuser: true
 highlight_name: true
 
@@ -35,7 +35,7 @@ social:
       header: true
   - icon: cv
     icon_pack: ai
-    link: /pdf/Vergopolan_CV_2024.pdf
+    link: /pdf/Vergopolan_CV_2025.pdf
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.com.br/citations?user=ETyTAKcAAAAJ&hl=en
