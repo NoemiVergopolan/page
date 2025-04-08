@@ -57,10 +57,10 @@ content:
   #    icon_pack: fas
   #    name: 'Noemi@princeton.edu'
   #    link: 'malito:noemi@princeton.edu'
-    - icon: twitter
+    - icon: x
       icon_pack: fab
       name: '@NVergopolan'
-      link: 'https://twitter.com/NVergopolan'
+      link: 'https://x.com/NVergopolan'
     - icon: linkedin
       name: LinkedIn
       icon_pack: fab
