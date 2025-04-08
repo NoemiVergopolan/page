@@ -51,16 +51,16 @@ content:
   #    link: 'malito:Noemi.Vergopolan@noaa.gov'
     - icon: envelope
       icon_pack: fas
-      name: 'Noemi.Vergopolan@rice.edu'
-      link: 'malito:Noemi.Vergopolan@rice.edu'
+      name: 'vergopolan@rice.edu'
+      link: 'malito:vergopolan@rice.edu'
   #  - icon: envelope
   #    icon_pack: fas
   #    name: 'Noemi@princeton.edu'
   #    link: 'malito:noemi@princeton.edu'
-    - icon: x
+    - icon: twitter
       icon_pack: fab
       name: '@NVergopolan'
-      link: 'https://x.com/NVergopolan'
+      link: 'https://twitter.com/NVergopolan'
     - icon: linkedin
       name: LinkedIn
       icon_pack: fab

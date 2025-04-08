@@ -12,3 +12,4 @@ colorpallet.png
 *.svg
 go.sum
 .hugo_build.lock
+*.DS_Store
