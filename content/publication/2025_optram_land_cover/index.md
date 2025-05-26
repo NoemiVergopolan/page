@@ -2,7 +2,7 @@
 title: "Landcover-specific calibration of the optical trapezoid model (OPTRAM) for soil moisture monitoring in the Central Valley, California"
 
 authors:
-- Neda Mohamadzadeh1
+- Neda Mohamadzadeh
 - Morteza Sadeghi
 - admin
 - Lan Liang
@@ -31,7 +31,10 @@ abstract: The Optical TRApezoid Model (OPTRAM) has been extensively utilized to 
 # summary: 
 
 tags:
-- Drought
+- Soil Moisture
+- Remote Sensing
+- Land Cover
+- Vegetation
 featured: false
 
 links:

@@ -33,6 +33,8 @@ abstract: The Pantanal, the world’s largest tropical wetland, experienced unus
 tags:
 - Drought
 - Wetlands
+- Hydrology
+- Climate
 featured: false
 
 links:
