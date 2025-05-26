@@ -30,7 +30,7 @@ url: "HydroBlocks/"
 # HydroBlocks
 ## A field-scale resolving land surface model over continental extents
 
-HydroBlocks is a hyper-resolution field-scale resolving land surface model that accounts for the water, energy, and carbon balance to solve land surface processes at high spatial and temporal resolutions. HydroBlocks leverages the repeating spatial patterns over the landscape by implementing a hierarchical clustering algorithm to define its computational mesh ([Chaney et al., 2016](https://doi.org/10.1002/hyp.10891); [2021](../publication/2021_chaney_hydroblocks_two_way_coupling)). This algorithm clusters the fine-scale drivers of the landscape spatial heterogeneity (e.g., 30-m land cover, soil properties, topography data) into complex tiles/clusters of similar hydrologic behavior (i.e., hydrological response units, HRUs). In this way, by simulating hydrological processes with HRUs instead of regular grids, HydroBlocks yields an effective 30-m spatial resolution while leveraging the complex physics of land surface models and reducing the computational requirements (Figure 1).
+HydroBlocks is a hyper-resolution field-scale resolving land surface model that accounts for the water, energy, and carbon balance to solve land surface processes at high spatial and temporal resolutions. HydroBlocks leverages the repeating spatial patterns over the landscape by implementing a hierarchical clustering algorithm to define its computational mesh ([2021](../publication/2021_chaney_hydroblocks_two_way_coupling)). This algorithm clusters the fine-scale drivers of the landscape spatial heterogeneity (e.g., 30-m land cover, soil properties, topography data) into complex tiles/clusters of similar hydrologic behavior (i.e., hydrological response units, HRUs). In this way, by simulating hydrological processes with HRUs instead of regular grids, HydroBlocks yields an effective 30-m spatial resolution while leveraging the complex physics of land surface models and reducing the computational requirements (Figure 1).
 
 {{< figure src="scheme.png" caption="HydroBlocks uses a hierarchical clustering scheme to define the hydrologic response units (HRUs) by clustering the high-resolution drivers of the landscape heterogeneity. The top illustration shows a simplistic example with 3 HRUs. In reality, 100--300 HRUs may be needed to represent the landscape heterogeneity of a catchment. In HydroBlocks, the HRUs interact with each other via surface and subsurface flow." numbered="true" width="70%" >}}
 
@@ -39,7 +39,7 @@ The core of HydroBlocks is the Noah-MP vertical land surface scheme ([Niu et al.
 {{< figure src="scheme_coupling.png" caption="Illustration of the impact of floodplain inundation dynamics on the land surface. We show the annual mean sensible heat flux, latent heat flux, root zone soil moisture, and land surface temperature. The left column shows the results for the uncoupled simulations (i.e., the routing scheme does not interact with the land surface), while the right column shows the coupled simulations. Source: [Chaney et al., 2021](../publication/2021_chaney_hydroblocks_two_way_coupling)." numbered="true" width="100%" >}}
 
 #### Model development and code availability
-HydroBlocks has been under development in a collaborative effort between Princeton University and the [Chaney Lab](http://www.chaneylab.earth/) at Duke University. The model source code is available at [Github](https://github.com/chaneyn/HydroBlocks).
+HydroBlocks has been under development in a collaborative effort between Rice University and Duke University. The model source code is available at [Github](https://github.com/chaneyn/HydroBlocks).
 
 
 ## Applications for soil moisture monitoring
@@ -71,8 +71,6 @@ The strong spatiotemporal variability of soil moisture plays an important role i
  
  
 ### References
-
-- Chaney, N. W., Metcalfe, P., & Wood, E. F. (2016). HydroBlocks: a field-scale resolving land surface model for application over continental extents. Hydrological Processes. https://doi.org/10.1002/hyp.10891 
 
 - Chaney, N. W., Torres-Rojas, L., Vergopolan, N., & Fisher, C. K. (2021). HydroBlocks v0.2: enabling a field-scale two-way coupling between the land surface and river networks in Earth system models. Geoscientific Model Development. https://doi.org/10.5194/gmd-14-6813-2021
 
