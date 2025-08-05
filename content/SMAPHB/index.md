@@ -31,7 +31,7 @@ url: "SMAPHB/"
 
 # Iframe for interactive visualization
 # <div class='visualizer' style="position: relative; padding-bottom: 100%; width: 100%; height: 120%; overflow: hidden;">
-# <iframe scrolling="no" src="http://stream.princeton.edu/SMAPHB/" style="position:absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; margin-top: -102px; " allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' allowvr="yes"></iframe>
+# <iframe scrolling="no" src="https://hydrology.soton.ac.uk/apps/SMAPHB/" style="position:absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; margin-top: -102px; " allowfullscreen='true' webkitallowfullscreen='true' mozallowfullscreen='true' allowvr="yes"></iframe>
 # </div>
 
 ---
@@ -49,9 +49,9 @@ To develop the SMAP-HydroBlocks dataset, we coupled HydroBlocks model with a Tau
 
 SMAP-HydroBlocks long-term and annual climatology at 30-m resolution are shown in the interactive visualization below. As a note, data is best shown in chrome and firefox browsers; otherwise, spatial resolution may be degraded.
 
-<div style="text-align: center;">{{% staticref "http://stream.princeton.edu/SMAPHB/" "newtab" %}}Open Fullscreen{{% /staticref %}}</div>
+<div style="text-align: center;">{{% staticref "https://hydrology.soton.ac.uk/apps/SMAPHB/" "newtab" %}}Open Fullscreen{{% /staticref %}}</div>
 
-[![Image name](VisImg2.png)](http://stream.princeton.edu/SMAPHB/)
+[![Image name](VisImg2.png)](https://hydrology.soton.ac.uk/apps/SMAPHB/)
 
 
 
