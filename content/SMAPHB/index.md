@@ -49,7 +49,7 @@ To develop the SMAP-HydroBlocks dataset, we coupled HydroBlocks model with a Tau
 
 SMAP-HydroBlocks long-term and annual climatology at 30-m resolution are shown in the interactive visualization below. As a note, data is best shown in chrome and firefox browsers; otherwise, spatial resolution may be degraded.
 
-<div style="text-align: center;">{{% staticref "https://hydrology.soton.ac.uk/apps/SMAPHB/" "newtab" %}}Open Fullscreen{{% /staticref %}}</div>
+<div style="text-align: center;">{{% staticref "https://hydrology.soton.ac.uk/apps/SMAPHB/" "newtab" %}}Access the Dashboard{{% /staticref %}}</div>
 
 [![Image name](VisImg2.png)](https://hydrology.soton.ac.uk/apps/SMAPHB/)
 
