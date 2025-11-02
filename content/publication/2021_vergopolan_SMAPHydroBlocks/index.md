@@ -1,6 +1,6 @@
 ---
 
-title: "SMAP-HydroBlocks, a 30-m satellite-based soil moisture dataset for the conterminous US"
+title: "SMAP-HydroBlocks, the first 30-m satellite-based soil moisture dataset for the conterminous US"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 

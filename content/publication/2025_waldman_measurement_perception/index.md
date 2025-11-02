@@ -29,6 +29,7 @@ abstract: We pair survey responses with GPS, crop-cut and CHIRPS benchmarks for 
 # summary: 
 
 tags:
+- Agriculture
 - Error measurement
 - Perceptions
 - Yield

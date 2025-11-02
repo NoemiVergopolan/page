@@ -32,6 +32,7 @@ abstract: The Optical TRApezoid Model (OPTRAM) has been extensively utilized to 
 
 tags:
 - Soil Moisture
+- SMAP-HydroBlocks
 - Remote Sensing
 - Land Cover
 - Vegetation

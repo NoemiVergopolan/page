@@ -36,6 +36,8 @@ abstract: "Mycotoxin contamination of corn is a pervasive problem that negativel
 summary: 
 
 tags:
+- Soil Moisture
+- SMAP-HydroBlocks
 - Agriculture
 - Crops
 - Risk
