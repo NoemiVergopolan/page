@@ -14,11 +14,10 @@ subtitle: "More on [Publications](./publication/) and [Google Scholar](https://s
 
 content:
   # Page type to display. E.g. post, talk, publication...
-  page_type: publication  # MERGED
+  page_type: publication  
   # Filter on criteria
   filters:
-    folders:
-      - publication
+    folders: [publication]
     tag: ''
     category: ''
     publication_type: ''
@@ -26,12 +25,18 @@ content:
     exclude_featured: true
     exclude_future: false
     exclude_past: false
+  show_summary: false
+  show_image: true
+  show_title: true
+  show_meta: false      # authors/date/tags
+  show_buttons: true   # PDF/DOI/etc.
   # Choose how many pages you would like to display (0 = all pages)
-  count: 7
+  count: 10
   # Choose how many pages you would like to offset by
   offset: 0
   # Page order: descending (desc) or ascending (asc) date.
   order: desc
+
 design:
   # Choose a view for the listings:
   #   1 = List
@@ -42,6 +47,20 @@ design:
   spacing:
     # Customize the section spacing. Order is top, right, bottom, left.
     padding: ["80px", "20px", "80px", "20px"]
+
+
+# design:
+#   columns: '2'
+#   view: showcase  # or: 1|2|3|4|masonry|community/myview|showcase
+#   background:
+#     gradient_start: '#ffffffff'
+#     gradient_end: '#ffffffff'
+#     text_color_light: false
+#   spacing:
+#     # Customize the section spacing. Order is top, right, bottom, left.
+#     padding: ["20px", "20px", "20px", "20px"]
+#   #css_class: "pubs-fix"
+#   css_style: "font-size: 0rem; line-height: 1.5;"
 
 ---
 

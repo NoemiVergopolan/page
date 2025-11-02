@@ -29,16 +29,29 @@ content:
   # Page order: descending (desc) or ascending (asc) date.
   order: desc
 
-design:
-  # Choose a view for the listings:
-  #   1 = List
-  #   2 = Compact
-  #   3 = Card
-  #   4 = Citation (publication only)
-  view: 2
+# design:
+#   # Choose a view for the listings:
+#   #   1 = List
+#   #   2 = Compact
+#   #   3 = Card
+#   #   4 = Citation (publication only)
+#   view: 2
+#   spacing:
+#     # Customize the section spacing. Order is top, right, bottom, left.
+#     padding: ["80px", "20px", "80px", "20px"]
 
+
+design:
+  columns: '2'
+  view: showcase   # or: 1|2|3|4|masonry|community/myview
+  background:
+    # gradient_start: '#4bb4e3'
+    # gradient_end: '#2b94c3'
+    text_color_light: false
   spacing:
     # Customize the section spacing. Order is top, right, bottom, left.
     padding: ["80px", "20px", "80px", "20px"]
+  css_class: "my-section"
+  css_style: "font-size: 0.9rem; line-height: 1.5;"
 
 ---
