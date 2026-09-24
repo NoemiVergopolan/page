@@ -43,7 +43,15 @@ abstract: Soil moisture plays a key role in controlling land-atmosphere interact
 # Summary. An optional shortened abstract.
 summary: We introduce SMAP-HydroBlocks (SMAP-HB), a high-resolution satellite-based surface soil moisture dataset at an unprecedented 30-m resolution (2015–2019) across the conterminous United States. SMAP-HB was produced by using a scalable cluster-based merging scheme that combines high-resolution land surface modeling, radiative transfer modeling, machine learning, SMAP satellite microwave data, and in-situ observations. We evaluated the resulting dataset over 1,192 observational sites. Its largest benefit of SMAP-HB is the high spatial detail and improved representation of the soil moisture spatial variability and spatial accuracy with respect to SMAP products.
 
-tags: [SMAP-HydroBlocks, SMAP, Soil Moisture, HydroBlocks, Machine Learning, Droughts, Land Surface Modeling, Remote Sensing]
+tags:
+- SMAP-HydroBlocks
+- SMAP
+- Soil Moisture
+- HydroBlocks
+- Machine Learning
+- Droughts
+- Land Surface Modeling
+- Remote Sensing
 
 # Display this page in the Featured widget?
 featured: true

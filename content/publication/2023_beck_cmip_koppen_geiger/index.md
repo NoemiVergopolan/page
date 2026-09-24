@@ -31,11 +31,10 @@ publication_short: ""
 abstract: We introduce Version 2 of our widely used 1-km Köppen-Geiger climate classification maps for historical and future climate conditions. The historical maps (encompassing 1901–1930, 1931–1960, 1961–1990, and 1991–2020) are based on high-resolution, observation-based climatologies, while the future maps (encompassing 2041–2070 and 2071–2099) are based on downscaled and bias-corrected climate projections for seven shared socio-economic pathways (SSPs). We evaluated 67 climate models from the Coupled Model Intercomparison Project phase 6 (CMIP6) and kept a subset of 42 with the most plausible CO2-induced warming rates. We estimate that from 1901–1930 to 1991–2020, approximately 5% of the global land surface (excluding Antarctica) transitioned to a different major Köppen-Geiger class. Furthermore, we project that from 1991–2020 to 2071–2099, 5% of the land surface will transition to a different major class under the low-emissions SSP1-2.6 scenario, 8% under the middle-of-the-road SSP2-4.5 scenario, and 13% under the high-emissions SSP5-8.5 scenario. The Köppen-Geiger maps, along with associated confidence estimates, underlying monthly air temperature and precipitation data, and sensitivity metrics for the CMIP6 models, can be accessed at www.gloh2o.org/koppen.
 
 # Summary. An optional shortened abstract.
-summary: 
-
+summary: "This study develops the version 2 of the Köppen-Geiger climate classification maps at 1-kilometer resolution from 1901 to 2099 and seven future climate pathways. We screened climate models by how plausibly they warm and dropping the least realistic, which narrows projected change and its spread. Roughly 5% of land outside Antarctica is shifited a major climate class since 1901-1930, and 5% to 13% more is projected by 2071-2099 depending on emissions scenario."
 tags:
 - Climate
-- Earth System Models
+- Land Surface Modeling
 featured: false
 
 links:

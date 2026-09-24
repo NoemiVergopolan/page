@@ -26,14 +26,13 @@ publication_short: ""
 abstract: We pair survey responses with GPS, crop-cut and CHIRPS benchmarks for 640 maize fields in Zambia to ask what the gaps between farmer perceptions and observational data really tell us. We find that farmers systematically overstate the area of small plots and understate that of large ones, while yield reports display the opposite pattern—low-yielding fields are understated and high-yielding fields overstated, with pronounced digit-heaping on round numbers. Similar misalignments emerge for rainy-season length, where no single “objective” metric captures the heuristics farmers use to mark onset and cessation. We interpret these discrepancies not as random error but as products of mental shortcuts such as anchoring, availability and social desirability that substitute for seldom-needed measurements. Because such beliefs guide day-to-day decisions, “correcting” them with instruments can aggravate bias. Indeed, once we account for conceptual mismatch, the inverse farm-size–productivity relationship all but disappears. We therefore argue that progress lies less in replacing farmer voices with satellites and more in engaging how smallholders actually think.
 
 # Summary. An optional shortened abstract.
-# summary: 
-
+summary: "Much of what is known about smallholder farming rests on farmers' own knowledge, and gaps between them and instruments used for measurements are usually treated as error. Reported field size, harvest and season timing from 640 maize farms in Zambia were checked against GPS boundaries, weighed harvests and satellite rainfall. The discrepancies were structured rather than random: small fields were overstated and large ones understated, while low harvests were understated and high ones overstated. Read instead as conceptual mismatch, they point to farmers and researchers holding different mental models."
 tags:
 - Agriculture
-- Error measurement
-- Perceptions
+- Uncertainty Quantification
+- Sociohydrology
 - Yield
-- Field
+- Smallholder Farming
 featured: false
 
 links:

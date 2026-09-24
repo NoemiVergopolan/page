@@ -60,6 +60,12 @@ footer:
       share_alike: true
       allow_commercial: false
 
+# Publications
+
+# Maximum number of authors shown in publication listings before "et al."
+# (0 = show all). A publication's own page always lists every author.
+author_list_limit: 8
+
 # Localization
 
 locale:

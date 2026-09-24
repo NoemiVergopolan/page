@@ -39,9 +39,18 @@ publication_short:
 abstract: Given the varying manifestations of climate change over time and the influence of climate perceptions on adaptation, it is important to understand whether farmer perceptions match patterns of environmental change from observational data. We use a combination of social and environmental data to understand farmer perceptions related to rainy season onset. Household surveys were conducted with 1171 farmers across Zambia at the end of the 2015/16 growing season eliciting their perceptions of historic changes in rainy season onset and their heuristics about when rain onset occurs. We compare farmers’ perceptions with satellite-gauge-derived rainfall data from the Climate Hazards Group Infrared Precipitation with Station dataset and hyper-resolution soil moisture estimates from the HydroBlocks land surface model. We find evidence of a cognitive bias, where farmers perceive the rains to be arriving later, although the physical data do not wholly support this. We also find that farmers’ heuristics about rainy season onset influence maize planting dates, a key determinant of maize yield and food security in sub-Saharan Africa. Our findings suggest that policy makers should focus more on current climate variability than future climate change.
 
 # Summary. An optional shortened abstract.
-summary:
+summary: "Farmers' climate perceptions guide adaptation, but previsouly they have been tested against weather stations rather than soil moisture, which matters more for crops. We used surveys of 1,171 Zambian farm households after the 2016 harvest recalled onset dates for recent and earlier seasons. In our analysis each farmer's own onset rule was compared with local rainfall and modeled soil moisture. Some 88% reported rains arriving 21.9 days later than a decade ago, yet the mean perceived onset for the latest season nearly matched the physically derived mean. Recall bias sets in as early as a year after harvest, and planting rules track maize planting dates, so policy should target current variability over future change."
 
-tags: [Climate Change, Climate, Agriculture, Crops, Smallholder Farming, Precipitation, Soil Moisture, HydroBlocks, Sociohydrology]
+tags:
+- Climate Change
+- Climate
+- Agriculture
+- Crops
+- Smallholder Farming
+- Precipitation
+- Soil Moisture
+- HydroBlocks
+- Sociohydrology
 
 # Display this page in the Featured widget?
 featured: false

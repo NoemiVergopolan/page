@@ -6,7 +6,7 @@ authors:
 - admin
 - Hamze Dokoohaki
 date: "2022-10-25T00:00:00Z"
-doi: "doi.org/10.5194/hess-27-1173-2023"
+doi: "10.5194/hess-27-1173-2023"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2022-10-25T00:00:00Z"
@@ -26,14 +26,16 @@ abstract: Today, the most popular approaches in agricultural forecasting leverag
 # Summary. An optional shortened abstract.
 summary: This study provides a framework for direct integration of soil moisture observations collected from soil sensors and satellite imagery into process-based crop models for improving the representation of agricultral systems. The performance of this framework was evaluated across 19 site-years for crop yield, NDVI, soil moisture, tile flow drainage and nitrate leaching.
 
+summary: "Soil water is a major uncertainty in crop models, and correcting it against measured soil moisture can reduce uncertainty on yield gain estimation. We tested 19 site-years of corn and soybean at five US Midwest sites, 2011 to 2019, and tested such corrections using in-situ sensors and satellite soil moisture, including SMAP-HydroBlocks, a 30-meter product not previously used in a crop model. Sensors improved yield estimates in 63% of site-years, mostly under water stress. The satellite data constrained the soil profile far more weakly yet still cut yield error by a median 17.2%."
+
 tags:
 - Agriculture
-- Soil moisture
+- Soil Moisture
 - Crops
 - Data Assimilation
 - SMAP-HydroBlocks
 - Nitrate
-- Drainage
+- Hydrology
 featured: false
 
 links:

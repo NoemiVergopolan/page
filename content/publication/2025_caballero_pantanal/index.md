@@ -6,7 +6,7 @@ authors:
 - Trent W. Biggs
 - admin
 - Luana G. G. Camelo
-- Bruno Comini de Andrade1
+- Bruno Comini de Andrade
 - Leonardo Laipelt
 - Anderson L. Ruhoff
 date: "2025-05-23T00:00:00Z"
@@ -28,10 +28,10 @@ publication_short: ""
 abstract: The Pantanal, the world’s largest tropical wetland, experienced unusual drying in 2000–2021, but the causes are poorly understood. Combining remotely sensed data of wetland extent and land cover with observed water level discharge and meteorological data, we quantify the relative contributions of climate and land use to changes in Pantanal wetland extent. Climate variability drove 96% of the runoff changes over four major hydroclimate regimes, including two wet (1951–1964; 1976–2000) and two dry (1965–1975; 2001–2021) periods. Reduced precipitation, runoff, and wetland shrinkage observed in 2001–2021 resembled the previous dry period (1965–1975), indicating decadal climatic variability. However, the higher aridity index in the recent period exacerbated the duration of the drought, and the rainfall-runoff relationship shifted over time, with more runoff for a given rainfall amount in recent periods. Wetland area is highly sensitive to climate variability, contracting to 25% of the maximum during dry years. Future warming and reduced rainfall will likely continue the recent drying trend, further reducing runoff, wetland area, and the Pantanal biodiversity.
 
 # Summary. An optional shortened abstract.
-#summary:
+summary: "The Pantanal, the world's largest tropical wetland, dried unusually over 2000-2021, with climate variability and land clearing in its headwaters both proposed as causes. Land-cover maps, gauged discharge and records of rainfall and evaporative demand back to 1951 were combined in a water balance analysis for the Upper Paraguay River Basin, reaching three decades further back than the land-cover record. We found that  the runoff change across two wet and two dry periods, 96% traced to climate and only 4% to land cover, while wetland area shrank about 30% after 1985. The recent dry period was hotter and more arid than the 1965-1975 drought and may worsen rather than revert to humid conditions."
 
 tags:
-- Drought
+- Droughts
 - Wetlands
 - Hydrology
 - Climate

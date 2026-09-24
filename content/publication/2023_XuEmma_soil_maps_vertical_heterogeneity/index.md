@@ -26,10 +26,8 @@ abstract: This study assesses the added value of using emerging maps of soil pro
 
 # Summary. An optional shortened abstract.
 summary: We assessed how advanced soil properties maps can improve soil moisture modeling using a Land Surface Model. The results showed that using contemporary soil properties maps and pedotransfer functions to estimate soil properties improved soil moisture modeling performance, especially when soil properties data is available at different soil layers.
-
 tags:
-- Soil moisture
-- Soil science
+- Soil Moisture
 - HydroBlocks
 featured: false
 

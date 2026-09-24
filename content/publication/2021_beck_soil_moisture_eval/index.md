@@ -50,7 +50,9 @@ abstract: "Information about the spatiotemporal variability of soil moisture is 
 # Summary. An optional shortened abstract.
 summary: We evaluated the largest and most diverse set of surface soil moisture products ever evaluated in a single study. We found pronounced differences in performance among individual products and product groups. Our results provide guidance to choose the most suitable product for a particular application.
 
-tags: [Soil Moisture, Remote Sensing]
+tags:
+- Soil Moisture
+- Remote Sensing
 
 # Display this page in the Featured widget?
 featured: false

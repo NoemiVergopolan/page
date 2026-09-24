@@ -44,9 +44,13 @@ publication_short:
 abstract: We introduce the Precipitation Probability DISTribution (PPDIST) dataset, a collection of global high-resolution (0.1°) observation-based climatologies (1979–2018) of the occurrence and peak intensity of precipitation (P) at daily and 3-hourly time-scales. The climatologies were produced using neural networks trained with daily P observations from 93,138 gauges and hourly P observations (resampled to 3-hourly) from 11,881 gauges worldwide. Mean validation coefficient of determination (R2) values ranged from 0.76 to 0.80 for the daily P occurrence indices, and from 0.44 to 0.84 for the daily peak P intensity indices. The neural networks performed significantly better than current state-of-the-art reanalysis (ERA5) and satellite (IMERG) products for all P indices. Using a 0.1 mm 3 h−1 threshold, P was estimated to occur 12.2%, 7.4%, and 14.3% of the time, on average, over the global, land, and ocean domains, respectively. The highest P intensities were found over parts of Central America, India, and Southeast Asia, along the western equatorial coast of Africa, and in the intertropical convergence zone. The PPDIST dataset is available via www.gloh2o.org/ppdist.
 
 # Summary. An optional shortened abstract.
-summary: 
+summary: "Precipitation frequency and the intensity of the heaviest events underpin infrastructure design and climate model evaluation, yet earlier near-global climatologies drew on just one of satellites, model reconstructions or gauges, with only 16% of global land placed within 25 kilometers of a gauge. We developed a machine learning method to combined all three, mapping both quantities from gauge records for 1979-2018 onto a 0.1-degree global grid. Against withheld gauges, the resulting PPDIST dataset explained 78% of the variance in daily occurrence and 72% in peak intensity, outperforming reconstruction- and satellite-based estimates."
 
-tags: [Precipitation, Extremes, Remote Sensing, Machine Learning]
+tags:
+- Precipitation
+- Extremes
+- Remote Sensing
+- Machine Learning
 
 # Display this page in the Featured widget?
 featured: false

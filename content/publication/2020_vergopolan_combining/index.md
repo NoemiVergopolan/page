@@ -41,10 +41,17 @@ abstract: Accurate and detailed soil moisture information is essential for, amon
 # Summary. An optional shortened abstract.
 summary: Satellite missions measuring soil moisture from space continue to improve the availability of soil moisture information. However, the utility of these satellite products is limited by the large footprint of the microwave sensors. This study presents a merging framework that combines a hyper-resolution land surface model (LSM), a radiative transfer model (RTM), and a Bayesian scheme to merge and downscale coarse resolution remotely sensed hydrological variables to a 30-m spatial resolution. The framework is based on [HydroBlocks](https://waterai.earth/hydroblocks/), an LSM that solves the field-scale spatial heterogeneity of land surface processes through interacting hydrologic response units (HRUs). Our approach was demonstrated for soil moisture by coupling HydroBlocks with the Tau-Omega RTM used in the Soil Moisture Active Passive (SMAP) mission. The brightness temperature from the HydroBlocks-RTM and SMAP L3 were merged to obtain updated 30-m resolution soil moisture estimates.
 
-tags: [Soil Moisture, SMAP, HydroBlocks, Data Fusion, Brightness Temperature, Land Surface Modeling]
+tags:
+- Soil Moisture
+- SMAP
+- HydroBlocks
+- Data Assimilation
+- Remote Sensing
+- Land Surface Modeling
+
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Custom links (uncomment lines below)
 # links:

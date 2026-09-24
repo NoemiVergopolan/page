@@ -37,9 +37,11 @@ publication_short:
 abstract: Helicopters can experience brownout when flying close to a dusty surface. The uplifting of dust in the air can remarkably restrict the pilot’s visibility area. Consequently, a brownout can disorient the pilot and lead to the helicopter collision against the ground. Given its risks, brownout has become a high-priority problem for civil and military operations. Proper helicopter design is thus critical, as it has a strong influence over the shape and density of the cloud of dust that forms when brownout occurs. A way forward to improve aircraft design against brownout is the use of particle simulations. For simulations to be accurate and comparable to the real phenomenon, billions of particles are required. However, using a large number of particles, serial simulations can be slow and too computationally expensive to be performed. In this work, we investigate an message passing interface (MPI) + graphics processing unit (multi-GPU) approach to simulate brownout. In specific, we use a semi-implicit Euler method to consider the particle dynamics in a Lagrangian way, and we adopt a precomputed aerodynamic field. Here, we do not include particle–particle collisions in the model; this allows for independent trajectories and effective model parallelization. To support our methodology, we provide a speedup analysis of the parallelization concerning the serial and pure-MPI simulations. The results show (i) very high speedups of the MPI + multi-GPU implementation with respect to the serial and pure-MPI ones, (ii) excellent weak and strong scalability properties of the implemented time-integration algorithm, and (iii) the possibility to run realistic simulations of brownout with billions of particles at a relatively small computational cost. This work paves the way toward more realistic brownout simulations, and it highlights the potential of high-performance computing for aiding and advancing aircraft design for brownout mitigation.
 
 # Summary. An optional shortened abstract.
-summary:
+summary: "Helicopters can experience a phenomenon called brownout when flying close to a dusty surface the uplifting of dust in the air can remarkably restrict the pilot’s visibility area. We show how realistic simulations of brownout need billions of grain particles. Tracking each grain as an independent trajectory through a precomputed airflow allows the work to be spread across multiple GPUs showed to be effective in reducing the simulation time substantially."
 
-tags: [HPC, GPU, CUDA, MPI, Particle Dynamics]
+tags:
+- High-Performance Computing
+
 
 # Display this page in the Featured widget?
 featured: false

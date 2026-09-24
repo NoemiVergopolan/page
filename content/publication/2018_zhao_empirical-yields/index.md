@@ -41,9 +41,13 @@ publication_short:
 abstract: Accurate crop yield forecasts before harvest are crucial for providing early warning of agricultural losses, so that policy-makers can take steps to minimize hunger risk. Within-season surveys of farmers’ end-of-season harvest expectations are one important method governments use to develop yield forecasts. Survey-based methods have two potential limitations whose effects are poorly understood. First, survey-based forecasts may be subject to errors and biases in the response data. For example, the weather variables that most impact yields may not be the same as those that farmers consider when shaping their yield expectations, thereby undermining forecast accuracy. Secondly, surveys are typically conducted late in the growing season, giving the government less advance notices of potential crop failures or low yields, and are costly to implement. Here we investigate these limitations within the context of Zambia’s annual Crop Forecast Survey (CFS). Concerning the first limitation, we analyzed the differences between CFS-predicted yields and reported yields collected by Post Harvest Surveys, and found that excess rainfall during the planting stage was more important to the actual yield than to farmers’ yield forecasts. For the second limitation, we evaluated whether a simple empirical yield forecast model could produce earlier and more accurate yield forecasts than the CFS. A random forest model using weather variables, soil texture, and soil pH as predictors were able to produce yield forecasts at the same or higher accuracy since the planting season.
 
 # Summary. An optional shortened abstract.
-summary:
+summary: "Governments forecast harvests partly from farmers' mid-season yield expectations, which may be biased. Data from field surveys are often late and costly. Zambia's maize forecast and post-harvest surveys were compared by district over six seasons from 2001 to 2012, alongside yield models built from weather and soil data. Forecasts averaged above the harvests later recorded, with a typical district-level error of 780 kilograms per hectare, 56% of mean recorded yield. A machine learning model cut that by 13.3%, beating the survey even on pre-planting weather. A major limitations is that models fitted to past weather-yield relationships, may underperform on unprecendented climate extremes."
+tags:
+- Agriculture
+- Machine Learning
+- Crops
+- Forecast
 
-tags: [Agriculture, Machine Learning, Machine Learning, Crops, Forecast]
 
 # Display this page in the Featured widget?
 featured: false
@@ -53,7 +57,7 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: https://www.researchgate.net/profile/Noemi-Vergopolan/publication/326976528_Comparing_empirical_and_survey-based_yield_forecasts_in_a_dryland_agro-ecosystem/links/5ba563ef299bf13e60435bba/Comparing-empirical-and-survey-based-yield-forecasts-in-a-dryland-agro-ecosystem.pdf
+url_pdf: /publication/2018_zhao_empirical-yields/2018_zhao_empirical-yields.pdf
 url_code: ''
 url_dataset: ''
 url_poster: ''

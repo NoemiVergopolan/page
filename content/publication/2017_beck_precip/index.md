@@ -43,8 +43,11 @@ abstract: We undertook a comprehensive evaluation of 22 gridded (quasi-)global (
 
 # Summary. An optional shortened abstract.
 summary: This study represents the most comprehensive global-scale precipitation dataset evaluation to date. We evaluated 13 uncorrected precipitation datasets using precipitation observations from 76 086 gauges, and 9 gauge-corrected ones using hydrological modeling for 9053 catchments. Our results highlight large differences in estimation accuracy, and hence, the importance of precipitation dataset selection in both research and operational applications.
+tags:
+- Precipitation
+- Remote Sensing
+- Climate
 
-tags: [Precipitation, Remote Sensing, Reanalysis]
 
 # Display this page in the Featured widget?
 featured: false

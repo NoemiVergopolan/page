@@ -26,13 +26,11 @@ publication_short: ""
 abstract: Land use and cover change (LUCC) in Brazil encompass a complex interplay of diverse factors across different biomes. Understanding these dynamics is crucial for informed decision-making and sustainable land management. In this study, we comprehensively analyzed LUCC patterns and drivers using 30 m resolution MapBiomas Collection 6.0 data (1985–2020). By mapping deforestation of primary and secondary natural vegetation, natural vegetation regeneration, and transitions between pasture, soybean, agriculture, and irrigation, we shed light on the intricate nature of LUCC in Brazil. Our findings highlight significant and increasing trends of deforestation in primary vegetation in the country. Simultaneously, the Atlantic Forest, Caatinga, Pampa, and other regions of the Cerrado have experienced intensification processes. Notably, the pasture area in Brazil reached its peak in 2006 and has since witnessed a gradual replacement by soybean and other crops. While pasture-driven deforestation persists in most biomes, the net pasture area has only increased in the Amazon and Pantanal, decreasing in other biomes due to the conversion of pasturelands to intensive cropping in other regions. Our analysis further reveals that primary and secondary vegetation deforestation accounts for a substantial portion of overall forest loss, with 72% and 17%, respectively. Of the cleared areas, 48% were in pasture, 9% in soybean cultivation, and 16% in other agricultural uses in 2020. Additionally, we observed a lower rate of deforestation in the Atlantic Forest, a biome that has been significantly influenced by anthropogenic activities since 1986. This holistic quantification of LUCC dynamics provides a solid foundation for understanding the impacts of these changes on local to continental-scale land-atmosphere interactions. By unraveling the complex nature of LUCC in Brazil, this study aims to contribute to the development of effective strategies for sustainable land management and decision-making processes.
 
 # Summary. An optional shortened abstract.
-summary: 
-
+summary: "Nationwide accounts of Brazilian land use have tended to follow a single cover class or biome, leaving unclear how much deforestation fell on long-standing vegetation rather than regrowth. Annual 30-meter satellite land cover maps for 1985-2020 were reprocessed across six Brazil biomes, separating regrown from long-standing vegetation to quantify the country's land-use transitions at this resolution for the first time. Long-standing vegetation took 72% of clearing and regrowth 17%; of cleared land, 48% was pasture by 2020 and 9% soybean. Pasture peaked nationally in 2006, since giving way to crops, and every biome showed net clearing despite a quarter of cleared land having regrown."
 tags:
-- Land-use and cover change
+- Land Use Change
 - Deforestation
-- Regeneration
-- Remote sensing
+- Remote Sensing
 featured: false
 
 links:

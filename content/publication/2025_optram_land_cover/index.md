@@ -28,13 +28,13 @@ publication_short: ""
 abstract: The Optical TRApezoid Model (OPTRAM) has been extensively utilized to map high-resolution surface soil moisture (top 0–5 cm) using surface reflectance observations. OPTRAM parameters, the intercept and slope of the dry and wet edges, are typically calibrated by analyzing the data cloud created from the Normalized Difference Vegetation Index (NDVI) and the Shortwave-infrared Transformed Reflectance (STR) in a specified area of interest. One set of parameters is commonly obtained for the entire study area regardless of its soil and landcover types. In this study, we explored to what extent a landcover- specific calibration of OPTRAM can improve its accuracy. In this analysis, we used Sentinel-2 (S2) reflectance and the Cropland Data Layer (CDL) landcover datasets via the Google Earth Engine to generate 20-m resolution soil moisture maps for California’s Central Valley (CV). We evaluated the spatial and temporal accuracy of the CV-wide calibrated OPTRAM (OPTRAM-CV) and landcover-specific calibrated OPTRAM (OPTRAM-LS) against in situ observations and SMAP-HydroBlocks (SMAP-HB), a well-validated 30-m satellite-based soil moisture dataset. Our results indicate that OPTRAM-LS signi cantly improved the accuracy of soil moisture estimates compared to OPTRAM-CV. The average root mean square error was 0.09 and 0.05 (m3 m−3) for OPTRAM-CV and OPTRAM-LS, respectively. OPTRAM showed less accuracy than SMAP-HB compared to in situ observations but yielded higher resolution than SMAP-HB.
 
 # Summary. An optional shortened abstract.
-# summary: 
+summary: "Optical satellite methods infer soil wetness from surface reflectance and greenness, filling the gap left by coarse resolution microwave sensors. Calibrated once for a whole region, they are biased toward the dominant land cover; calibrating separately by land cover class offers a way around that. We show that vegetation-type specific calibration on California's Central Valley cut average soil moisture estimation error from 0.09 to 0.05 cubic meters per cubic meter and resolved individual fields and water pathways."
 
 tags:
 - Soil Moisture
 - SMAP-HydroBlocks
 - Remote Sensing
-- Land Cover
+- Land Use Change
 - Vegetation
 featured: false
 

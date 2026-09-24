@@ -28,7 +28,6 @@ abstract: Despite hosting ∼16% of the global freshwater and almost 50% of wate
 
 # Summary. An optional shortened abstract
 summary: Brazil holds 16% of the world’s freshwater, yet its water systems are still not fully understood. To understand how rainfall and rivers interact across the country, we studied the hydrologic signatures of 735 catchments. Through catchment classification we identified six major water behavior groups, mostly based on how wet or dry the regions are. In drier areas, climate drives streamflow; in wetter ones, soil and land features matter more. This helps map and predict when and where floods or droughts are likely to happen and it also guides smarter water storage and usage in vulnerable regions. Ultimately, this research supports better planning for a changing climate.
-
 tags:
 - Hydrology
 featured: false

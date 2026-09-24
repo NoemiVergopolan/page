@@ -47,7 +47,16 @@ abstract: Soil moisture is highly variable in space and time, and deficits (i.e.
 # Summary. An optional shortened abstract.
 summary: Drought monitoring and yield prediction often rely on coarse-scale hydroclimate data or (infrequent) vegetation indexes that do not always indicate the conditions farmers face in the field. Consequently, decision-making based on these indices can often be disconnected from the farmer reality. Our study focuses on smallholder farming systems in data-sparse developing countries, and it shows how field-scale soil moisture can leverage and improve crop yield prediction and drought impact assessment. 
 
-tags: [Maize, Crops, Mapping, Soil Moisture, HydroBlocks, Machine Learning, Droughts, Extremes, Land Surface Modeling, Remote Sensing]
+tags:
+- Crops
+- Remote Sensing
+- Soil Moisture
+- HydroBlocks
+- Machine Learning
+- Droughts
+- Extremes
+- Land Surface Modeling
+
 
 # Display this page in the Featured widget?
 featured: true

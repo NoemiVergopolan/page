@@ -46,9 +46,13 @@ publication_short:
 abstract: Dry conditions in 2013–16 in much of the western United States were responsible for severe drought and led to an exceptional fire season in the Pacific Northwest in 2015. Winter 2015/16 was forecasted to relieve drought in the southern portion of the region as a result of increased precipitation due to a very strong El Niño signal. A student forecasting challenge is summarized in which forecasts of winter hydroclimate across the western United States were made on 1 January 2016 for the winter hydroclimate using several dynamical and statistical forecast methods. They show that the precipitation forecasts had a large spread and none were skillful, while anomalously high observed temperatures were forecasted with a higher skill and precision. The poor forecast performance, particularly for precipitation, is traceable to high uncertainty in the North American Multi-Model Ensemble (NMME) forecast, which appears to be related to the inability of the models to predict an atmospheric blocking pattern over the region. It is found that strong El Niño sensitivities in dynamical models resulted in an overprediction of precipitation in the southern part of the domain. The results suggest the need for a more detailed attribution study of the anomalous meteorological patterns of the 2015/16 El Niño event compared to previous major events.
 
 # Summary. An optional shortened abstract.
-summary:
+summary: A very strong El Niño was widely expected to ease the western United States drought in winter 2015/16, as in 1982/83 and 1997/98. Forecasts issued on 1 January 2016 covered winter precipitation and temperature and spring snowpack, from both empirical and dynamical methods. A common but poorly supported assumption, that anomalies scale with El Niño strength, was tested. Precipitation proved less sensitive to the signal than assumed. Only 46% of precipitation forecasts had the correct sign, against 87% for temperature and 67% for snowpack.
+tags:
+- Forecast
+- Climate
+- Precipitation
+- Snow
 
-tags: [Forecast, Climate, El Nino, Precipitation, Temperature, SWE, Snow]
 
 # Display this page in the Featured widget?
 featured: false

@@ -35,7 +35,7 @@ abstract: Flash droughts, characterized by rapid onset and intensification, are 
 summary: This study aims to better understand flash droughts worldwide and their varying characteristics and impacts. We surveyed the experiences of people affected by flash droughts and then examined a wide range of literature, including non-English and nonacademic sources. This helped us understand how flash droughts can differ from those commonly studied in the United States and China. We identified and described five types of flash droughts, some of which may not be detected by current drought measurement methods. It is crucial to include all types of flash droughts in drought monitoring systems and management plans, as they are expected to become more common due to global warming. We can then better prepare for and reduce the impacts of this growing threat.
 
 tags:
-- Drought
+- Droughts
 featured: false
 
 links:

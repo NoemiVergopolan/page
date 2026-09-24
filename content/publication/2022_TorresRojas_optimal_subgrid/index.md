@@ -7,7 +7,7 @@ authors:
 - John D. Herman
 - Nathaniel W. Chaney
 date: "2022-12-09T00:00:00Z"
-doi: "https://doi.org/10.1029/2022WR032233"
+doi: "10.1029/2022WR032233"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2022-12-09T00:00:00Z"
@@ -30,8 +30,7 @@ summary: In this study we show how a surrogate model can accurately predict the 
 tags:
 - HydroBlocks
 - Land Surface Modeling
-- Subgrid scheme
-- Pareto Optimization
+- Parameter Estimation
 - Machine Learning
 featured: false
 

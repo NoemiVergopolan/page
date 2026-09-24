@@ -29,10 +29,10 @@ publication_short: ""
 abstract: The Brazilian Amazon Forest is experiencing alterations in water fluxes driven by agriculture expansion and climate change, which affect land-atmosphere interactions and precipitation recycling. Evapotranspiration (ET) is central to understand these processes, as it regulates water transport across the Amazon. However, its long-term responses to ongoing climate change and human activities remain poorly understood. This study conducted a multi-scale analysis of ET trends from basin to local scale in the most deforested region of the Brazilian Amazon. We applied a remote sensing-based model (geeSEBAL) from 1990 to 2022 to assess deforestation and climate change effects on ET. Our results indicate that overallET in the Amazon arc of deforestation has increased by 11% during the dry season despite significant forest removal, largely due to the contribution of intact forests and global warming feedback. While these findings suggest a forest response to a changing climate, they also highlight a critical vulnerability that is exacerbated by the threat of ongoing deforestation. With projected warmer future climate and extended dry seasons, our results emphasize the complex interplay between water recycling and climate change in the world’s largest rainforest, with significant ecological and water security implications.
 
 # Summary. An optional shortened abstract.
-# summary: 
+summary: "About half the rain falling on the Amazon returns to the air from soil and plants, so its response to clearing and warming bears on rainfall across South America. Existing estimates are too coarse to detect fine-scale signal of deforestation. We used a surface energy balance model on satellite imagery resolved dry-season losses at 30 meters across Brazil's 1.3 million square kilometer arc of deforestation, from 1990 to 2022. Over remaining forest ET rose 11 ± 1.5% while cleared land lost 41 ± 2.1%; since forest still covers most of the region, the area-wide trend was positive, 10 ± 2.1%. The ET rise is atritubeted to forest responding to warmer, drier air, though continued clearing could reverse it."
 
 tags:
-- Satellite
+- Remote Sensing
 - Evapotranspiration
 - Amazon
 - Droughts

@@ -50,15 +50,13 @@ publication_short: ""
 abstract: Accurately predicting terrestrial ecosystem responses to climate change over long-timescales is crucial for addressing global challenges. This relies on mechanistic modeling of ecosystem processes through land surface models (LSMs). Despite their importance, LSMs face significant uncertainties due to poorly constrained parameters, especially in carbon cycle predictions. This paper reviews the progress made in using data assimilation (DA) for LSM parameter optimization, focusing on carbon-water-vegetation interactions, as well as discussing the technical challenges faced by the community. These challenges include identifying sensitive model parameters and their prior distributions, characterizing errors due to observation biases and model-data inconsistencies, developing observation operators to interface between the model and the observations, tackling spatial and temporal heterogeneity as well as dealing with large and multiple data sets, and including the spin-up and historical period in the assimilation window. We outline how machine learning (ML) can help address these issues, proposing different avenues for future work that integrate ML and DA to reduce uncertainties in LSMs. We conclude by highlighting future priorities, including the need for international collaborations, to fully leverage the wealth of available Earth observation data sets, harness ML advances, and enhance the predictive capabilities of LSMs.
 
 # Summary. An optional shortened abstract.
-summary: Improving the accuracy of land surface models (LSMs) is crucial for reducing uncertainties in climate change projections. Parameter data assimilation (DA), which fine-tunes model parameters to better match observed data, is key to enhancing LSM performance. However, the complexity of LSMs poses challenges for global optimization. Advances in computational power, novel data sets, and machine learning (ML) offer promising solutions to improve LSMs. ML can streamline the DA process, handling large data sets and reducing computational demands. This article discusses the progress made in LSM parameter estimation and the challenges faced by the community. We then discuss how ML can help address these challenges and outline future priorities. International collaboration, fostered by initiatives like the Analysis, Integration and Modeling of the Earth System Land DA Working Group and the International Land Model Forum, is essential for accelerating progress, facilitating knowledge exchange, and developing standardized methods for more accurate climate modeling.
-
+summary: "Land surface models, which simulate vegetation, soil, water and carbon within Earth system models, depend on parameters that often cannot be measured directly. Varying one carbon flux parameter within its uncertainty range can shift projected atmospheric CO2 in 2100 more than the choice of emissions scenario. This review presents two decades of work on adjusting parameters to match observations is consolidated into seven recurring obstacles, each paired with a machine learning opportunity."
 tags:
-- Land surface modeling
-- Parameter estimation
-- Data assimilation
-- Uncertainty quantification
-- Model calibration
-- Machine learning
+- Land Surface Modeling
+- Parameter Estimation
+- Data Assimilation
+- Uncertainty Quantification
+- Machine Learning
 featured: false
 
 links:

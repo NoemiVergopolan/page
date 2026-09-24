@@ -29,18 +29,13 @@ abstract: Catchment wetness and related hydrological connectivity determine nitr
 
 # Summary. An optional shortened abstract.
 summary: Nitrate pollution in streams is a significant environmental challenge, affecting water quality and ecosystem health. Hydrological connectivity, the way water moves through the landscape, governs nitrate transport and transformation, but measuring it across entire catchments remains a challenge. Spatial patterns of soil moisture can provide key insights into catchment-scale hydrological connectivity, yet they have not been widely integrated into nitrate prediction models. In this study, we developed a deep learning framework trained on daily streamflow data and SMAP-HydroBlocks, a high-resolution satellite-based soil moisture data set. We tested whether deep learning models can predict nitrate concentrations using spatial soil moisture patterns and applied Explainable AI (XAI) methods to identify which areas contribute most to the model predictions. Our findings reveal that soil moisture patterns significantly improve nitrate predictions, with near-stream areas having the highest predictive power. This study highlights the potential of AI-driven approaches to provide spatially detailed insights into nitrate transport, which could support better water quality management and help identify nutrient pollution hotspots at fine spatial scales.
-
-
 tags:
-- Soil moisture
+- Soil Moisture
 - SMAP-HydroBlocks
 - Nitrate
-- Deep learning
-- Explainable AI
-- Hydrological connectivity
-- Remote sensing
-- Concentration–discharge
-- Catchment modeling
+- Machine Learning
+- Hydrology
+- Remote Sensing
 featured: false
 
 links:

@@ -38,9 +38,11 @@ publication_short:
 abstract: We present new global maps of the Köppen-Geiger climate classification at an unprecedented 1-km resolution for the present-day (1980–2016) and for projected future conditions (2071–2100) under climate change. The present-day map is derived from an ensemble of four high-resolution, topographically-corrected climatic maps. The future map is derived from an ensemble of 32 climate model projections (scenario RCP8.5), by superimposing the projected climate change anomaly on the baseline high-resolution climatic maps. For both time periods we calculate confidence levels from the ensemble spread, providing valuable indications of the reliability of the classifications. The new maps exhibit a higher classification accuracy and substantially more detail than previous maps, particularly in regions with sharp spatial or elevation gradients. We anticipate the new maps will be useful for numerous applications, including species and vegetation distribution modeling. The new maps including the associated confidence maps are freely available via www.gloh2o.org/koppen
 
 # Summary. An optional shortened abstract.
-summary: 
+summary: "Köppen-Geiger classifications, which categorize the world into cliamte types such as tropical, arid or polar, underpin ecology and climate impact work, but the global versions in wide use were drawn at about 10 kilometers or coarser resolution, without any uncertainty quantification. We developed new maps at about 1 kilometer for 1980-2016 by merging several precipitation and temperature datasets and quantifying its confidence value. A companion map projects 2071-2100 under a high-emissions scenario. Against 22,078 weather stations the new map classified 80.0% correctly, versus 66.1 to 73.4% for the earlier maps."
+tags:
+- Climate
+- Climate Change
 
-tags: [Climate, Climate Change, Köppen-Geiger, RCP]
 
 # Display this page in the Featured widget?
 featured: false

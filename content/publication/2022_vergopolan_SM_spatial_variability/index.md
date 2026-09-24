@@ -24,7 +24,7 @@ author_notes:
 
 # Paper publication date
 date: "2022-08-18T00:00:00Z"
-doi: "https://doi.org/10.1029/2022GL098586"
+doi: "10.1029/2022GL098586"
 
 # Schedule webpage page publish date (NOT publication's date).
 publishDate: ""
@@ -43,8 +43,14 @@ abstract: Soil moisture (SM) spatiotemporal variability critically influences wa
 
 # Summary. An optional shortened abstract.
 summary: Soil moisture (SM) space and time variability critically influences freshwater resources, agriculture, ecosystem dynamics, climate and land-atmosphere interactions, and it can also trigger hazards such as droughts, floods, landslides, and aggravate wildfires. Here, we present the first continental assessment of how SM varies at the local scales using [SMAP-HydroBlocks](https://waterai.earth/publication/2021_vergopolan_smaphydroblocks). This study maps the SM spatial variability, characterizes the landscape drivers, and quantifies how this variability persists across larger spatial scales. Results revealed striking SM spatial variability across the United States. However, this SM variability does not persist at coarser spatial scales resulting in extensive information loss. This information loss implicates inaccuracies when predicting non-linear SM-dependent hydrological, ecological, and biogeochemical processes using coarse-scale models and satellite estimates. 
+tags:
+- SMAP-HydroBlocks
+- SMAP
+- Soil Moisture
+- HydroBlocks
+- Land Surface Modeling
+- Remote Sensing
 
-tags: [SMAP-HydroBlocks, SMAP, Soil Moisture, HydroBlocks, Land Surface Modeling, Remote Sensing, Scaling]
 
 # Display this page in the Featured widget?
 featured: true
