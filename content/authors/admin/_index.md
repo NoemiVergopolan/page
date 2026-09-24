@@ -4,11 +4,7 @@ title: Noemi Vergopolan
 first_name: Noemi
 last_name: Vergopolan
 
-role: Computational Hydrology
-
-organizations:
-  - name: Rice University
-    url: https://www.rice.edu/
+role: Assistant Professor of Earth, Environmental and Planetary Sciences
 
 avatar_filename: avatar.jpg
 
@@ -16,7 +12,7 @@ email: vergopolan@rice.edu
 superuser: true
 highlight_name: true
 
-bio:
+bio: Computational hydrologist working on high-resolution water prediction for climate, agriculture and decision-making.
 
 interests:
   - Hydrology
@@ -85,4 +81,4 @@ Currently, I am assistant professor at the [Earth, Environment, and Planetary Sc
 
 For my contribution to science, I was awarded the 2022 AGU Science for Solutions Award for *"outstanding contributions to water and food security through advances in hyper-resolution land surface modeling and satellite remote sensing"*, the 2022 Paul F. Boulos Excellence in Computational Hydrology Award by the American Academy of Environmental Engineers and Scientists, and the National Science Foundation CAREER Award in 2026.
 
-Learn more about my interests in [research](#research) and [publications](publication), and by following my updates on [LinkedIn](https://www.linkedin.com/in/vergopolan/). Prospective PhD students and postdocs keen on contributing to the fields of computational hydrology and remote sensing are encouraged to revise the [requirements](/pdf/candidates_information.pdf) and [reach out](#contact) for position availability.
+Learn more about my interests in [research](#research) and [publications](publication), and by following my updates on [LinkedIn](https://www.linkedin.com/in/vergopolan/). Prospective PhD students and postdocs keen on contributing to the fields of computational hydrology and remote sensing are encouraged to revise the [the positions open and requirements](/pdf/candidates_information.pdf).
