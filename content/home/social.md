@@ -28,8 +28,6 @@ design:
 
 ---
 
-<!-- <div class='sk-ww-linkedin-profile-post' data-embed-id='25444426'></div><script src='https://widgets.sociablekit.com/linkedin-profile-posts/widget.js' async defer></script>
-
-<div class='sk-ww-linkedin-profile-post' data-embed-id='25444426'></div><script src='https://widgets.sociablekit.com/linkedin-profile-posts/widget.js' defer></script> -->
-
-<iframe src='https://widgets.sociablekit.com/linkedin-profile-posts/iframe/25444426' frameborder='0' width='100%' height='2000'></iframe>
+<!-- Elfsight LinkedIn Feed | Untitled LinkedIn Feed -->
+<script src="https://elfsightcdn.com/platform.js" async></script>
+<div class="elfsight-app-c2bc17dd-5011-4bfd-a454-c234978bfe62" data-elfsight-app-lazy></div>
