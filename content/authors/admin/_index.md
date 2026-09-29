@@ -14,6 +14,25 @@ highlight_name: true
 
 bio: Computational hydrologist working on high-resolution water prediction for climate, agriculture and decision-making.
 
+# Publish this profile page (/authors/admin/); content/authors/_index.md keeps
+# pages off for co-authors without a profile.
+_build:
+  render: always
+  list: always
+
+# Team page grouping (content/team/people.md).
+user_groups:
+  - Principal Investigator
+
+# Short bio shown in the homepage About section. The full bio below is shown on
+# the profile page (/authors/admin/), linked from the Team page.
+bio_short: |
+  I am a computational hydrologist, engineer, and scientist working on solutions for water resources and climate. My research aims to aid actionable decision-making by improving hydrological information for monitoring and prediction. My group develops scalable computational approaches combining satellite remote sensing, land surface modeling, machine learning, data fusion, and high-performance computing to monitor and forecast hydrological extremes, such as floods and droughts, and their impacts on water and food security at the local scales where decisions are made.
+
+  My work has been recognized with the **NSF CAREER Award** (2026), the **AGU Science for Solutions Award** (2022), and the **AAEES Paul F. Boulos Excellence in Computational Hydrology Award** (2022). I hold a Ph.D. from Princeton University, was a research scientist at the NOAA Geophysical Fluid Dynamics Laboratory, and previously worked in water resources engineering consulting.
+
+  Meet our [team](/team/), explore our [research](#research), or see how to [join us](/join/).
+
 interests:
   - Hydrology
   - Agriculture
@@ -76,4 +95,4 @@ Currently, I am assistant professor at the [Earth, Environment, and Planetary Sc
 
 For my contribution to science, I was awarded the 2022 AGU Science for Solutions Award for *"outstanding contributions to water and food security through advances in hyper-resolution land surface modeling and satellite remote sensing"*, the 2022 Paul F. Boulos Excellence in Computational Hydrology Award by the American Academy of Environmental Engineers and Scientists, and the National Science Foundation CAREER Award in 2026.
 
-Learn more about my interests in [research](#research) and [publications](publication), and by following my updates on [LinkedIn](https://www.linkedin.com/in/vergopolan/). Prospective PhD students and postdocs keen on contributing to the fields of computational hydrology and remote sensing are encouraged to revise the [the positions open and requirements](/pdf/candidates_information.pdf).
+Learn more about my interests in [research](/#research) and [publications](/publication/), and by following my updates on [LinkedIn](https://www.linkedin.com/in/vergopolan/). Prospective PhD students and postdocs can find the open positions on the [Join Us](/join/) page.

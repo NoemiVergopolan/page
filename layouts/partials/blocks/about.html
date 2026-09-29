@@ -1,12 +1,14 @@
 {{/* Wowchemy Blocks: About — local override.
 
-  NOTE: in theme v5.7 the About section renders from `partials/blocks/about.html`.
-  The older `partials/widgets/about.html` path is no longer called at all, so an
-  override placed there has no effect.
+  NOTE: in theme v5.7 the homepage About section renders from this file. Author
+  profile pages (/authors/<name>/) call the legacy `partials/widgets/about.html`,
+  which here just delegates to this file.
 
   Changes vs. the module copy:
     1. Education entries with a `certificate_url` get a certificate icon
-       instead of a graduation cap.
+       instead of a graduation cap, and link to their program page.
+    2. On the homepage, the author's `bio_short` replaces the full bio, and
+       interests/education are shown on the profile page only.
 */}}
 
 {{/* Initialise */}}
@@ -59,16 +61,20 @@
         {{ with $person.role }}<h3>{{ . | markdownify | emojify }}</h3>{{ end }}
 
         {{ range $person.organizations }}
+        {{ if .name }}
         <h3>
           {{ with .url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}
           <span>{{ .name }}</span>
           {{ if .url }}</a>{{ end }}
         </h3>
         {{ end }}
+        {{ end }}
       </div>
 
       <ul class="network-icon" aria-hidden="true">
         {{ range $person.social }}
+        {{/* Skip icons whose link was left blank. */}}
+        {{ if .link }}
         {{ $pack := or .icon_pack "fas" }}
         {{ $pack_prefix := $pack }}
         {{ if in (slice "fab" "fas" "far" "fal") $pack }}
@@ -88,6 +94,7 @@
           </a>
         </li>
         {{ end }}
+        {{ end }}
       </ul>
 
     </div>
@@ -97,13 +104,33 @@
     {{/* Only display widget title in explicit instances of about widget, not in author pages. */}}
     {{ if and $block.Params.widget $block.Title }}<h1>{{ $block.Title | markdownify | emojify }}</h1>{{ end }}
 
+    {{/* The homepage widget shows the author's `bio_short` when set; the
+         profile page (/authors/<name>/) always shows the full bio. */}}
     <div class="article-style">
-      {{ $person_page.Content }}
+      {{ if and $block.Params.widget $person.bio_short }}
+        {{ $person.bio_short | markdownify }}
+      {{ else }}
+        {{ $person_page.Content }}
+      {{ end }}
     </div>
 
+    {{/* Interests and education appear on the profile page only, keeping the
+         homepage About section short. */}}
+    {{ if not $block.Params.widget }}
+
+    {{/* Blank entries (as left in the team-member template) are skipped, and a
+         heading only appears when at least one filled-in entry remains. */}}
+    {{ $interests := slice }}
+    {{ range $person.interests }}{{ if . }}{{ $interests = $interests | append . }}{{ end }}{{ end }}
+    {{ $courses := slice }}
+    {{ with $person.education }}
+      {{ range .courses }}{{ if .course }}{{ $courses = $courses | append . }}{{ end }}{{ end }}
+    {{ end }}
+
+    {{ if or $interests $courses }}
     <div class="row">
 
-      {{ with $person.interests }}
+      {{ with $interests }}
       <div class="col-md-5">
         <div class="section-subheading">{{ i18n "interests" | markdownify }}</div>
         <ul class="ul-interests mb-0">
@@ -114,11 +141,11 @@
       </div>
       {{ end }}
 
-      {{ with $person.education }}
+      {{ with $courses }}
       <div class="col-md-7">
         <div class="section-subheading">{{ i18n "education" | markdownify }}</div>
         <ul class="ul-edu fa-ul mb-0">
-          {{ range .courses }}
+          {{ range . }}
           <li>
             {{/* Certificates get their own icon; degrees keep the graduation cap. */}}
             {{ if .certificate_url }}
@@ -126,9 +153,11 @@
             {{ else }}
             <i class="fa-li fas fa-graduation-cap"></i>
             {{ end }}
+            {{/* The course links to its program page when one is given. */}}
+            {{ $url := or .certificate_url .institution_url }}
             <div class="description">
-              <p class="course">{{ .course }}{{ with .year }}, {{ . }}{{ end }}</p>
-              <p class="institution">{{ .institution }}</p>
+              <p class="course">{{ with $url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}{{ .course }}{{ if $url }}</a>{{ end }}{{ with .year }}, {{ . }}{{ end }}</p>
+              {{ with .institution }}<p class="institution">{{ . }}</p>{{ end }}
             </div>
           </li>
           {{ end }}
@@ -137,5 +166,7 @@
       {{ end }}
 
     </div>
+    {{ end }}
+    {{ end }}
   </div>
 </div>

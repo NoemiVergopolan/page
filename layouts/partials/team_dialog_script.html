@@ -1,0 +1,38 @@
+{{/* Opens and closes the member cards (native <dialog>). Clicking outside the
+     card or pressing Esc closes it. A link to /team/#member-<folder-name>
+     opens that member's card on arrival. */}}
+<script>
+  (function () {
+    if (window.__teamDialogs) return;
+    window.__teamDialogs = true;
+    document.addEventListener('click', function (e) {
+      var opener = e.target.closest('[data-team-dialog]');
+      if (opener) {
+        var d = document.getElementById(opener.getAttribute('data-team-dialog'));
+        if (d && d.showModal) { d.showModal(); }
+        return;
+      }
+      if (e.target.closest('[data-team-dialog-close]')) {
+        e.target.closest('dialog').close();
+        return;
+      }
+      if (e.target.tagName === 'DIALOG' && e.target.classList.contains('team-dialog')) {
+        var r = e.target.getBoundingClientRect();
+        if (e.clientX < r.left || e.clientX > r.right || e.clientY < r.top || e.clientY > r.bottom) {
+          e.target.close();
+        }
+      }
+    });
+    function openFromHash() {
+      var id = decodeURIComponent(location.hash.slice(1));
+      var d = id && document.getElementById(id);
+      if (d && d.classList.contains('team-dialog') && d.showModal && !d.open) { d.showModal(); }
+    }
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', openFromHash);
+    } else {
+      openFromHash();
+    }
+    window.addEventListener('hashchange', openFromHash);
+  })();
+</script>

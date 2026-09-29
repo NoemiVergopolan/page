@@ -13,6 +13,9 @@ main:
 #  - name: Data and Models
 #    url: '#projects'
 #    weight: 20
+  - name: Team
+    url: team/
+    weight: 25
   - name: Publications
     url: '#featured'
     weight: 30
@@ -28,6 +31,9 @@ main:
   - name: News & Social
     url: '#social'
     weight: 40
+  - name: Join Us
+    url: join/
+    weight: 45
   - name: Contact
     url: '#contact'
     weight: 50

@@ -1,0 +1,12 @@
+{{/* Embed a PDF on the page, with a direct link underneath for browsers
+     (notably iOS) that render embedded PDFs poorly or not at all.
+     Usage: {{< pdf src="/pdf/file.pdf" title="Accessible title" height="90vh" >}} */}}
+{{ $src := .Get "src" }}
+{{ $title := .Get "title" | default "PDF document" }}
+{{ $height := .Get "height" | default "90vh" }}
+<div class="pdf-embed">
+  <iframe src="{{ $src }}#view=FitH" title="{{ $title }}" style="height: {{ $height | safeCSS }};" loading="lazy"></iframe>
+  <p class="pdf-embed-link">
+    <a href="{{ $src }}" target="_blank" rel="noopener"><i class="fas fa-file-pdf" aria-hidden="true"></i> Open or download the PDF</a>
+  </p>
+</div>

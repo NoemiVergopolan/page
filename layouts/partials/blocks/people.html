@@ -1,0 +1,95 @@
+{{/* Wowchemy Blocks: People — local override.
+
+  Changes vs. the module copy:
+    1. A member whose profile page is published (`_build: render: always`, as
+       for the PI) links to it as before. Every other member opens a detail
+       card in place (partials/team_member_dialog.html) instead of navigating
+       to a separate page.
+    2. Social icons with a blank link are skipped.
+    3. Loads partials/team_dialog_script.html, which opens/closes the cards.
+*/}}
+
+{{/* Initialise */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $show_social := $block.Params.design.show_social | default false }}
+{{ $show_interests := $block.Params.design.show_interests | default true }}
+{{ $show_organizations := $block.Params.design.show_organizations | default false }}
+{{ $show_role := $block.Params.design.show_role | default true }}
+
+<div class="row justify-content-center people-widget">
+  {{ with $block.Title }}
+  <div class="col-md-12 section-heading">
+    <h1>{{ . | markdownify | emojify }}</h1>
+    {{ if $block.Params.subtitle }}<p>{{ $block.Params.subtitle | markdownify | emojify }}</p>{{ end }}
+  </div>
+  {{ end }}
+
+  {{ with $block.Content }}
+  <div class="col-md-12">
+    {{ . }}
+  </div>
+  {{ end }}
+
+  {{ range $block.Params.content.user_groups }}
+  {{ $query := where (where site.Pages "Section" "authors") ".Params.user_groups" "intersect" (slice .) }}
+
+  {{if $query | and (gt (len $block.Params.content.user_groups) 1) }}
+  <div class="col-md-12">
+    <h2 class="mb-4">{{ . | markdownify }}</h2>
+  </div>
+  {{end}}
+
+  {{ range $query }}
+  {{ $avatar := (.Resources.ByType "image").GetMatch "*avatar*" }}
+  {{/* Unpublished profile pages have an empty permalink: open the card instead. */}}
+  {{ $link := .RelPermalink }}
+  {{ $dialog := printf "member-%s" (path.Base .File.Dir) }}
+  {{ $open_start := "" }}
+  {{ $open_end := "" }}
+  {{ if $link }}
+    {{ $open_start = printf `<a href="%s">` $link }}
+    {{ $open_end = "</a>" }}
+  {{ else }}
+    {{ $open_start = printf `<button type="button" class="team-card-open" data-team-dialog="%s" aria-haspopup="dialog">` $dialog }}
+    {{ $open_end = "</button>" }}
+  {{ end }}
+  <div class="col-12 col-sm-auto people-person">
+    {{ $src := "" }}
+    {{ if site.Params.features.avatar.gravatar }}
+      {{ $src = printf "https://s.gravatar.com/avatar/%s?s=150" (md5 .Params.email) }}
+    {{ else if $avatar }}
+      {{ $avatar_image := $avatar.Fill "270x270 Center" }}
+      {{ $src = $avatar_image.RelPermalink }}
+    {{ end }}
+    {{ if $src }}
+      {{ $avatar_shape := site.Params.features.avatar.shape | default "circle" }}
+      {{ $open_start | safeHTML }}<img width="270" height="270" loading="lazy" class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}" src="{{ $src }}" alt="{{ .Title }}">{{ $open_end | safeHTML }}
+    {{ end }}
+
+    <div class="portrait-title">
+      <h2>{{ $open_start | safeHTML }}{{ .Title }}{{ $open_end | safeHTML }}</h2>
+      {{ if and $show_organizations .Params.organizations }}{{ range .Params.organizations }}<h3>{{ .name }}</h3>{{ end }}{{ end }}
+      {{ if and $show_role .Params.role }}<h3>{{ .Params.role | markdownify | emojify }}</h3>{{ end }}
+      {{ if $show_social }}
+      <ul class="network-icon" aria-hidden="true">
+        {{ range .Params.social }}
+        {{ if .link }}
+        {{ $pack := or .icon_pack "fas" }}
+        {{ $prefix := cond (in (slice "fab" "fas" "far" "fal") $pack) "fa" $pack }}
+        {{ $external := in (slice "http" "https") (urls.Parse .link).Scheme }}
+        <li><a href="{{ .link | safeURL }}"{{ if $external }} target="_blank" rel="noopener"{{ end }} aria-label="{{ .icon }}"><i class="{{ $pack }} {{ $prefix }}-{{ .icon }}"></i></a></li>
+        {{ end }}
+        {{ end }}
+      </ul>
+      {{ end }}
+      {{ if and $show_interests .Params.interests }}<p class="people-interests">{{ delimit .Params.interests ", " | markdownify | emojify }}</p>{{ end }}
+    </div>
+
+    {{ if not $link }}{{ partial "team_member_dialog.html" . }}{{ end }}
+  </div>
+  {{ end }}
+  {{ end }}
+</div>
+
+{{ partial "team_dialog_script.html" . }}

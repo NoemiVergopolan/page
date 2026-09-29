@@ -8,3 +8,354 @@ nav#navbar-main li.nav-item {
   width: 100%;
   height: auto;
 }
+
+// Embedded PDF (layouts/shortcodes/pdf.html)
+.pdf-embed {
+  margin: 1.5rem 0;
+
+  iframe {
+    display: block;
+    width: 100%;
+    min-height: 480px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    background: #fff;
+  }
+}
+
+body.dark .pdf-embed iframe {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.pdf-embed-link {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+
+// Homepage About section (layouts/partials/blocks/about.html)
+// Center the photo column against the text, and keep lines short enough to read.
+.wg-about {
+  > .container > .row,
+  .row:first-child {
+    align-items: center;
+    justify-content: center;
+  }
+
+  #profile {
+    margin-bottom: 0;
+  }
+
+  .network-icon {
+    margin-bottom: 0;
+  }
+
+  .col-lg-8 {
+    max-width: 44rem;   // about 75 characters per line
+  }
+
+  h1 {
+    margin-bottom: 1.25rem;
+  }
+
+  .article-style {
+    font-size: 1.05rem;
+    line-height: 1.8;
+
+    p {
+      margin-bottom: 1.2em;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .wg-about .col-lg-4 {
+    padding-right: 2.5rem;
+  }
+}
+
+
+// Team page layout (content/team/)
+// Group headings (Principal Investigator, Graduate Students, ...) read as
+// labels with a rule on each side, with clear space between groups.
+.people-widget h2.mb-4 {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin: 3.5rem 0 2rem !important;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  opacity: 0.7;
+
+  &::before,
+  &::after {
+    content: "";
+    flex: 1;
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+  }
+}
+
+body.dark .people-widget h2.mb-4 {
+  &::before,
+  &::after {
+    border-top-color: rgba(255, 255, 255, 0.2);
+  }
+}
+
+// The first group sits closer to the page title.
+.people-widget > .section-heading + .col-md-12 h2.mb-4 {
+  margin-top: 1rem !important;
+}
+
+// Wider cards, so a long role wraps onto two lines rather than three, and
+// slightly larger name/role text than the theme's 1rem/0.7rem. The selectors
+// match the theme's `.people-widget .col-sm-auto { width: 20% }` to override it.
+.people-widget .people-person {
+  margin-bottom: 1.5rem;
+
+  .portrait-title h2 {
+    font-size: 1.15rem;
+  }
+
+  .portrait-title h3 {
+    font-size: 0.8rem;
+    line-height: 1.45;
+  }
+}
+
+@media (min-width: 576px) {
+  .people-widget .col-sm-auto.people-person {
+    width: 17rem;
+  }
+
+  // The PI (the first group, a single card) gets room for the long title.
+  .people-widget .section-heading + .col-md-12 + .people-person {
+    width: 24rem;
+  }
+}
+
+// Alumni: centered entries that wrap, so one alum sits centered as neatly as
+// a dozen.
+.alumni-widget .section-heading {
+  text-align: center;
+}
+
+.alumni-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem 3rem;
+  max-width: 60rem;
+  margin: 0 auto;
+  padding-left: 0;
+  list-style: none;
+  text-align: center;
+
+  li {
+    width: 16rem;
+    line-height: 1.5;
+  }
+
+  .alumni-name {
+    font-weight: 600;
+  }
+
+  .alumni-role {
+    display: block;
+    font-size: 0.9rem;
+    opacity: 0.75;
+  }
+}
+
+// Join Us teaser: a centered, readable-width paragraph under its heading.
+#join .col-12 {
+  max-width: 44rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+// Team member detail cards (layouts/partials/team_member_dialog.html)
+// Buttons that open a card look like the plain links they replace.
+.team-card-open {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: $sta-primary;
+  font: inherit;
+  cursor: pointer;
+
+  &:hover,
+  &:focus-visible {
+    text-decoration: underline;
+  }
+
+  img.avatar {
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+
+  &:hover img.avatar,
+  &:focus-visible img.avatar {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+  }
+}
+
+.people-person .team-card-open:has(img) {
+  display: block;
+  margin: 0 auto;
+}
+
+.team-dialog {
+  width: 34rem;
+  max-width: calc(100vw - 32px);
+  max-height: calc(100vh - 48px);
+  padding: 1.75rem 1.75rem 1.5rem;
+  border: 0;
+  border-radius: 12px;
+  background: #fff;
+  color: rgba(0, 0, 0, 0.85);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  text-align: left;
+
+  &::backdrop {
+    background: rgba(15, 20, 30, 0.55);
+  }
+
+  // The card itself takes focus when opened; its edge needs no focus ring.
+  &:focus,
+  &:focus-visible {
+    outline: none;
+  }
+
+  h2 {
+    margin: 0 0 0.25rem;
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    margin: 1.25rem 0 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    opacity: 0.6;
+  }
+
+  p {
+    margin: 0;
+  }
+}
+
+.team-dialog-close {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.75rem;
+  padding: 0.25rem 0.5rem;
+  border: 0;
+  background: none;
+  color: inherit;
+  font-size: 1.75rem;
+  line-height: 1;
+  opacity: 0.6;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.team-dialog-head {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  padding-right: 1.5rem;
+}
+
+.team-dialog-avatar {
+  flex: none;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.team-dialog-role,
+.team-dialog-org {
+  font-size: 0.95rem;
+  opacity: 0.75;
+}
+
+.team-dialog-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1.25rem 0 0;
+  padding: 0;
+  list-style: none;
+
+  a {
+    display: inline-block;
+    padding: 0.3rem 0.75rem;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 999px;
+    font-size: 0.875rem;
+    text-decoration: none;
+
+    &:hover {
+      border-color: $sta-primary;
+    }
+  }
+}
+
+.team-dialog-interests {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.team-dialog-edu {
+  margin: 0 0 0 1.75rem;
+
+  li {
+    margin-bottom: 0.6rem;
+    line-height: 1.4;
+  }
+
+  .course {
+    display: block;
+    font-size: 0.95rem;
+  }
+
+  .institution {
+    display: block;
+    font-size: 0.85rem;
+    opacity: 0.7;
+  }
+}
+
+body.dark .team-dialog {
+  background: #1e2230;
+  color: rgba(255, 255, 255, 0.88);
+
+  .team-dialog-links a {
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+}
+
+@media (max-width: 480px) {
+  .team-dialog-head {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .team-dialog-avatar {
+    width: 96px;
+    height: 96px;
+  }
+}

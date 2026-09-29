@@ -1,0 +1,50 @@
+{{/* Alumni block: a compact text list of former members, shown below the
+     current members on the Team page. Lists every author page whose `user_groups` includes the
+     group(s) in `content.user_groups` (default: Alumni), newest
+     `graduation_year` first; people in the same year, and anyone without a
+     year (listed last), are alphabetical. Each line shows the name, linked
+     to the profile page, followed by the member's `role`, e.g. "PhD 2028, now
+     at NOAA". Renders nothing when there are no alumni. */}}
+{{ $block := .wcBlock }}
+{{ $groups := $block.Params.content.user_groups | default (slice "Alumni") }}
+{{ $all := where (where site.Pages "Section" "authors") ".Params.user_groups" "intersect" $groups }}
+{{/* Hugo's sort is stable, so sorting by name first keeps names alphabetical
+     within each year. */}}
+{{ $dated := slice }}
+{{ $undated := slice }}
+{{ range sort $all "Title" }}
+  {{ if .Params.graduation_year }}{{ $dated = $dated | append . }}{{ else }}{{ $undated = $undated | append . }}{{ end }}
+{{ end }}
+{{ $alumni := $undated }}
+{{ with $dated }}{{ $alumni = (sort . "Params.graduation_year" "desc") | append $undated }}{{ end }}
+
+{{ with $alumni }}
+<div class="row justify-content-center alumni-widget">
+  {{ with $block.Title }}
+  <div class="col-md-12 section-heading">
+    <h1>{{ . | markdownify | emojify }}</h1>
+    {{ with $block.Params.subtitle }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
+  </div>
+  {{ end }}
+
+  <div class="col-md-12">
+    <ul class="alumni-list">
+      {{ range . }}
+      <li>
+        {{/* Published profile page: link to it. Otherwise open the detail card
+             in place, as on the member cards above. */}}
+        {{ $link := .RelPermalink }}
+        <span class="alumni-name">
+          {{- if $link -}}<a href="{{ $link }}">{{ .Title }}</a>
+          {{- else -}}<button type="button" class="team-card-open" data-team-dialog="member-{{ path.Base .File.Dir }}" aria-haspopup="dialog">{{ .Title }}</button>
+          {{- end -}}
+        </span>
+        {{ with .Params.role }}<span class="alumni-role">{{ . | markdownify }}</span>{{ end }}
+        {{ if not $link }}{{ partial "team_member_dialog.html" . }}{{ end }}
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+</div>
+{{ partial "team_dialog_script.html" . }}
+{{ end }}

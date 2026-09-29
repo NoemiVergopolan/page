@@ -1,0 +1,73 @@
+{{/* Team member detail card, opened in place on the Team page (no separate
+     page). Called with an author page as context; used by
+     partials/blocks/people.html and partials/blocks/alumni.html.
+     Shows photo, name, role, contact/social links, research areas and
+     education. Empty fields are skipped, so a sparse profile gives a small
+     card. The dialog is opened by any element with
+     `data-team-dialog="<id>"` (see the script in blocks/people.html). */}}
+{{ $p := . }}
+{{ $id := printf "member-%s" (path.Base $p.File.Dir) }}
+{{ $avatar := ($p.Resources.ByType "image").GetMatch "*avatar*" }}
+
+{{ $courses := slice }}
+{{ with $p.Params.education }}
+  {{ range .courses }}{{ if .course }}{{ $courses = $courses | append . }}{{ end }}{{ end }}
+{{ end }}
+{{ $interests := slice }}
+{{ range $p.Params.interests }}{{ if . }}{{ $interests = $interests | append . }}{{ end }}{{ end }}
+
+<dialog class="team-dialog" id="{{ $id }}" aria-labelledby="{{ $id }}-name">
+  <button type="button" class="team-dialog-close" data-team-dialog-close aria-label="Close">&times;</button>
+
+  <div class="team-dialog-head">
+    {{ with $avatar }}
+      {{ $img := .Fill "240x240 Center" }}
+      <img class="team-dialog-avatar" src="{{ $img.RelPermalink }}" width="120" height="120" alt="{{ $p.Title }}" loading="lazy">
+    {{ end }}
+    <div>
+      <h2 id="{{ $id }}-name">{{ $p.Title }}</h2>
+      {{ with $p.Params.role }}<p class="team-dialog-role">{{ . | markdownify }}</p>{{ end }}
+      {{ range $p.Params.organizations }}{{ with .name }}<p class="team-dialog-org">{{ . }}</p>{{ end }}{{ end }}
+    </div>
+  </div>
+
+  {{/* Contact and social links, as labelled buttons. */}}
+  {{ $labels := dict "envelope" "Email" "google-scholar" "Google Scholar" "linkedin" "LinkedIn" "github" "GitHub" "orcid" "ORCID" "globe" "Website" "twitter" "Twitter" "researchgate" "ResearchGate" "cv" "CV" }}
+  {{ $links := slice }}
+  {{ range $p.Params.social }}{{ if .link }}{{ $links = $links | append . }}{{ end }}{{ end }}
+  {{ with $links }}
+  <ul class="team-dialog-links">
+    {{ range . }}
+      {{ $pack := or .icon_pack "fas" }}
+      {{ $prefix := cond (in (slice "fab" "fas" "far" "fal") $pack) "fa" $pack }}
+      {{ $external := in (slice "http" "https") (urls.Parse .link).Scheme }}
+      {{ $label := index $labels .icon | default (humanize .icon) }}
+      {{ if eq .icon "envelope" }}{{ $label = strings.TrimPrefix "mailto:" .link }}{{ end }}
+      <li>
+        <a href="{{ .link | safeURL }}"{{ if $external }} target="_blank" rel="noopener"{{ end }}>
+          <i class="{{ $pack }} {{ $prefix }}-{{ .icon }}" aria-hidden="true"></i> {{ $label }}
+        </a>
+      </li>
+    {{ end }}
+  </ul>
+  {{ end }}
+
+  {{ with $interests }}
+  <h3>Research areas</h3>
+  <p class="team-dialog-interests">{{ delimit . ", " }}</p>
+  {{ end }}
+
+  {{ with $courses }}
+  <h3>Education</h3>
+  <ul class="team-dialog-edu fa-ul">
+    {{ range . }}
+    {{ $url := or .certificate_url .institution_url }}
+    <li>
+      <i class="fa-li fas {{ if .certificate_url }}fa-certificate{{ else }}fa-graduation-cap{{ end }}" aria-hidden="true"></i>
+      <span class="course">{{ with $url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}{{ .course }}{{ if $url }}</a>{{ end }}{{ with .year }}, {{ . }}{{ end }}</span>
+      {{ with .institution }}<span class="institution">{{ . }}</span>{{ end }}
+    </li>
+    {{ end }}
+  </ul>
+  {{ end }}
+</dialog>
