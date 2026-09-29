@@ -28,6 +28,13 @@ design:
 
 ---
 
-<!-- Elfsight LinkedIn Feed | Untitled LinkedIn Feed -->
-<script src="https://elfsightcdn.com/platform.js" async></script>
-<div class="elfsight-app-c2bc17dd-5011-4bfd-a454-c234978bfe62" data-elfsight-app-lazy></div>
+<!-- Curator.io LinkedIn Feed -->
+<div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div>
+<script type="text/javascript">
+/* curator-feed-default-feed-layout */
+(function(){
+var i,e,d=document,s="script";i=d.createElement("script");i.async=1;i.charset="UTF-8";
+i.src="https://cdn.curator.io/published/d3bba2a2-5259-4bbd-b040-947c2fa5fd70.js";
+e=d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
+})();
+</script>
