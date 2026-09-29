@@ -41,11 +41,6 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/NoemiVergopolan
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/NVergopolan
-    display:
-      header: true
 organizations:
   - name: Rice University
     url: https://eeps.rice.edu/

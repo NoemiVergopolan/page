@@ -1,0 +1,76 @@
+{{/* Display author list.
+
+     Overrides the Wowchemy v5 partial of the same name so that very long
+     author lists (e.g. multi-author Comments) do not dominate the listings.
+
+     Accepts either a page, or a dict of (page, limit).
+     `limit` > 0 shows that many names followed by "et al."; 0 shows all.
+     The default is `author_list_limit` in params.yaml, which an individual
+     page may override with its own `author_list_limit` front matter.
+
+     The highlighted author (the site owner) is always shown, even when the
+     cut-off would otherwise hide them, so her name never disappears from her
+     own publication list. She is then preceded by an ellipsis, e.g.
+     "Nina Raoult, Natalie Douglas, ..., Noemi Vergopolan, et al." */}}
+
+{{- $page := . -}}
+{{- if reflect.IsMap . -}}
+  {{- $page = .page -}}
+{{- end -}}
+
+{{- /* Site default, overridable per page via `author_list_limit` front matter. */ -}}
+{{- $limit := $page.Params.author_list_limit | default (site.Params.author_list_limit | default 0) -}}
+{{- if reflect.IsMap . -}}
+  {{- if isset . "limit" -}}
+    {{- $limit = .limit -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $taxonomy := "authors" }}
+{{ if $page.Param $taxonomy }}
+  {{- $all := $page.GetTerms $taxonomy -}}
+  {{- $total := len $all -}}
+  {{- $truncated := and (gt $limit 0) (gt $total $limit) -}}
+
+  {{- /* Work out which authors to render, and where the ellipsis goes. */ -}}
+  {{- $shown := $all -}}
+  {{- $gap_before := -1 -}}
+  {{- $extra_index := -1 -}}
+  {{- if $truncated -}}
+    {{- $shown = first $limit $all -}}
+    {{- range $offset, $author := after $limit $all -}}
+      {{- if and (lt $extra_index 0) ($author.Page.Params.highlight_name | default false) -}}
+        {{- $extra_index = add $limit $offset -}}
+        {{- $gap_before = len $shown -}}
+        {{- $shown = $shown | append $author -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- /* "et al." only if authors remain after the last one rendered. */ -}}
+  {{- $last_shown := cond (ge $extra_index 0) $extra_index (sub $limit 1) -}}
+  {{- $more := and $truncated (lt $last_shown (sub $total 1)) -}}
+
+  {{ range $index, $value := $shown }}
+    {{- /* Highlight the author's name? */ -}}
+    {{- $highlight_name := .Page.Params.highlight_name | default false -}}
+    {{- $real_index := cond (eq $index $gap_before) $extra_index $index -}}
+
+    {{- if gt $index 0 }}, {{ end -}}
+    {{- if eq $index $gap_before }}&hellip;, {{ end -}}
+    <span {{ if $highlight_name }}class="author-highlighted"{{end}}>
+      {{/* Effectively check the page's `_build` option as `_build` is not exposed in Hugo's Page object. */}}
+      {{- if .RelPermalink -}}
+        <a href="{{.RelPermalink}}">{{.LinkTitle}}</a>
+      {{- else -}}
+        {{ .LinkTitle }}
+      {{- end -}}
+    </span>
+    {{- if isset $page.Params "author_notes" -}}
+      {{- with (index $page.Params.author_notes $real_index) -}}
+        <i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="{{.}}"></i>
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if $more }}, <span class="author-et-al">et al.</span>{{ end -}}
+{{- end -}}

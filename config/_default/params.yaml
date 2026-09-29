@@ -30,11 +30,7 @@ marketing:
 
 email: vergopolan@rice.edu
 #phone:
-contact_links:
-  - icon: twitter
-    icon_pack: fab
-    name: '@NVergopolan'
-    link: 'https://twitter.com/NVergopolan' 
+contact_links: []
 
 # Site header
 
