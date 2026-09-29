@@ -4,6 +4,7 @@ summary: Satellite observations, physical models, and machine learning combined 
 
 tags:
 - Soil Moisture
+- Remote Sensing
 - Agriculture
 - Crops
 - Hyper-resolution
