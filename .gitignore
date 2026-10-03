@@ -13,3 +13,7 @@ colorpallet.png
 go.sum
 .hugo_build.lock
 *.DS_Store
+CLAUDE.md
+hugo.rb
+installation.txt
+website_env.yml
